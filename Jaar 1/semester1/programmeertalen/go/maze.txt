@@ -1,0 +1,55 @@
+MAZE
+====
+
+Description
+-----------
+In the context of this exercise, a maze is a rectangular field of square cells,
+where the sides of the cells are either _open_, or blocked by a _wall_. A
+solution of a maze is a series of connected cells between which there is no
+wall, such that the series, or _path_, starts at the first cell of the maze and
+leads to a cell on the border of the rectangle where there is no outside wall.
+The first cell is considered to be on the north-east of the maze, whereas the
+last cell is on the south-west.
+
+You will implement a distributed maze solver, `maze.go`. This program should
+take as its sole argument the filename of a file containing an encoding of a
+maze. A template for the exercise is provided. This template contains the
+functionality necessary for reading in a maze.
+
+
+Input Format
+------------
+The `readMaze` function reads a maze into a two-dimensional array. The file
+format used to store mazes is a simple listing of flags for each cell. If a
+cell contains a wall on its southern side, 1 is added to its value. If a cell
+contains a wall on its eastern side, 2 is added to its value. By convention,
+the entire north and west sides of the maze are closed by walls.
+
+A Python script for the visualization of mazes is supplied.
+
+
+The Algorithm
+-------------
+The search for a solution implemented in your program should be distributed in
+nature. That is, it should explore multiple possible paths concurrently using
+goroutines. Once a solution to the maze, in the form of a slice of `Position`s,
+is found, the search should be terminated. The program itself is not allowed to
+terminate with running goroutines. In a larger program, leftover goroutines are
+bad practice and a common source of memory leaks.
+
+Your program should use channels to guide its search and is not allowed to
+investigate any cell more than once. In other words, known results may not be
+recalculated.
+
+The output of the program should be the maze itself, where 4 is added to the
+value of the cells that take part in the obtained solution, if a solution
+exists. Again, the template provides for the necessary code.
+
+
+Bonus
+-----
+A small bonus can be obtained by describing, in the comments of your program,
+why a returned path is not necessarily a shortest path out of the maze. Your
+description should also include an indication of how the program could be
+modified so that the attained solution is in fact a shortest solution.
+

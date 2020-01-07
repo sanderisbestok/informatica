@@ -1,0 +1,271 @@
+% LATEX-TEMPLATE LITERATUURONDERZOEK
+%-------------------------------------------------------------------------------
+% Voor informatie over het literatuuronderzoek, zie
+% http://practicumav.nl/onderzoeken/literatuur.html
+% Voor readme en meest recente versie van het template, zie
+% https://gitlab-fnwi.uva.nl/informatica/LaTeX-template.git
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-------------------------------------------------------------------------------
+%	PACKAGES EN DOCUMENT CONFIGURATIE
+%-------------------------------------------------------------------------------
+
+\documentclass[12pt]{uva-inf-article}
+\usepackage[dutch]{babel}
+
+% Relevant voor refereren vanaf blok 5
+\usepackage{cleveref}
+
+%-------------------------------------------------------------------------------
+%	GEGEVENS VOOR IN DE TITEL
+%-------------------------------------------------------------------------------
+
+% Vul de naam van de opdracht in.
+\assignment{Virtualisatie}
+% Vul het soort opdracht in.
+\assignmenttype{Literatuuronderzoek}
+% Vul de titel van de eindopdracht in.
+\title{Virtualisatie en Virussen}
+
+% Vul de volledige namen van alle auteurs in.
+\authors{Sander Hansen}
+% Vul de corresponderende UvAnetID's in.
+\uvanetids{10995080}
+
+% Vul altijd de naam in van diegene die het nakijkt, tutor of docent.
+\tutor{Robin Klusman}
+% Vul eventueel ook de naam van de docent of vakcoordinator toe.
+\docent{}
+% Vul hier de naam van de PAV-groep  in.
+\group{A2}
+% Vul de naam van de cursus in.
+\course{Besturingssystemen}
+% Te vinden op onder andere Datanose.
+\courseid{}
+
+% Dit is de datum die op het document komt te staan. Standaard is dat vandaag.
+\date{\today}
+
+%-------------------------------------------------------------------------------
+%	VOORPAGINA
+%-------------------------------------------------------------------------------
+
+\begin{document}
+\maketitle
+
+%-------------------------------------------------------------------------------
+%	INHOUDSOPGAVE EN ABSTRACT
+%-------------------------------------------------------------------------------
+
+% Niet doen bij korte verslagen en rapporten
+%\tableofcontents
+%\begin{abstract}
+%\end{abstract}
+
+%-------------------------------------------------------------------------------
+%	INTRODUCTIE
+%-------------------------------------------------------------------------------
+\section{Inleiding}
+In dit literatuuronderzoek zal er gekeken worden naar het gebruik van
+virtualisatie om computers te beschermen tegen virussen. Het begrip virtualisatie,
+dat nader zal worden toegelicht, biedt perspectief op het gebied van het beschermen
+tegen virussen.
+
+Omdat computers door bijna iedereen gebruikt worden tegenwoordig, hebben virussen
+ook op vrijwel iedereen effect. Het is daarom belangrijk dat er onderzoek gedaan
+wordt naar deze virussen, waarbij virtualisatie een steeds grotere rol gaat spelen.
+De maatschappelijke relevantie is hier logischerwijs uit te concluderen. Dat ook
+bedrijven hier mee bezig zijn toont het patent dat is aangevraagd op het beschermen
+van anti-virus \textit{software} met behulp van virtualisatie aan.
+\cite{wang2012securing}
+
+Er is veel onderzoek gedaan naar wat virtualisatie kan beteken bij de bescherming
+tegen virussen en onderzoek daar van. Openbare onderzoeken die de verschillende
+aspecten hiervan toelichten en vergelijken zijn er echter nog niet. Daarom is het belangrijk om te kijken waar we
+op dit moment staan met de bescherming van computers tegen virussen met behulp
+van virtualisatie.
+
+\subsection{Vraagstelling}
+Omdat de maatschappelijke relevantie groot is en er veel onderzoek naar losse
+onderdelen binnen dit gebied is gedaan, maar deze nog niet aan elkaar zijn gekoppeld.
+Kunnen we de volgende vraag stellen;
+\\\\Hoe kan virtualisatie gebruikt worden om computers te beschermen tegen virussen?
+
+\subsection{Virtualisatie}
+Allereerst is het belangrijk om te begrijpen wat virtualisatie inhoudt en wanneer
+dit toegepast kan worden. Virtualisatie maakt het mogelijk om op dezelfde hardware
+meerdere besturingssystemen tegelijkertijd te laten draaien.
+Om virtualisatie mogelijk te maken kan er gebruik gemaakt worden van speciale
+\textit{software} die de \textit{hardware} vanuit een hoofdbesturingssysteem
+onderverdeeld over verschillende gastsystemen. Deze gastsystemen gedragen zich
+dan meestal (afhankelijk van het soort virtualisatie) als autonome systemen.
+
+Het is per definitie niet nodig om de \textit{hardware} van een computer aan te
+passen om deze gebruik te laten maken van virtualisatie. Als de \textit{hardware}
+van een bepaalde computer niet direct werkt met bepaalde virtualisatie \textit{software}
+zal deze \textit{software} de code van de \textit{kernel} vertalen op binair niveau.
+Vervolgens kan de virtualisatie alsnog draaien op de machine. \cite{adams2006comparison}
+
+Het is wel zo dat om randapparatuur te virtualiseren er wel extra aanpassingen
+nodig zijn. Echter wat voor aanpassingen hangt af van de virtualisatie \textit{software}
+die gebruikt wordt. Het virtualiseren van randapparatuur kan vaak worden gerealiseerd
+door het installeren van een aantal \textit{hardware} specifieke \textit{drivers}.
+\cite{rossier2012embeddedxen}
+
+Het is goed om te realiseren dat er meerdere soorten virtualisatie bestaan. Zo
+bestaat er para virtualisatie, een vorm van virtualisatie waarbij het gastsysteem
+zich ervan bewust is dat het gevirtualiseerd is. In plaats van de \textit{hardware}
+direct aan te sturen zal het gastbesturingssysteem dit via het
+hoofdbesturingssysteem laten gebeuren. Bij volle virtualisatie daarentegen gedraagt
+het gastbesturingssysteem zich daadwerkelijk als autonoom systeem en stuurt het
+direct zijn (gevirtualiseerde) \textit{hardware} aan.
+
+Er bestaan verschillende \textit{software} pakketten voor virtualisatie. Er is niet
+een bepaalde soort \textit{software} die duidelijk het meest gebruikt wordt maar
+uitgaande van de namen die het meest voorkomen in onderzoeken lijken de volgende
+drie bedrijven die virtualisatie \textit{software} maken het populairst; VMware,
+Oracle en VirtualBox. Het is echter niet duidelijk op welke schaal ze door welke bedrijven
+worden gebruikt, het blijft daarom gissen naar een antwoord.
+
+%-------------------------------------------------------------------------------
+%	KERN
+%-------------------------------------------------------------------------------
+
+% Geef de secties inhoudelijke titels die de lezer vertellen waar de sectie over
+% gaat - dus niet 'kern'.
+\section{Onderzoek naar virussen}
+Het is lastig om onderzoek te doen naar virussen. De definitie van een computervirus
+is volgens van Dale niet voor niets; '\textit{programma dat data ongevraagd kan veranderen
+of vernietigen.}' \cite{vandale} Tijdens onderzoek naar deze virussen wordt er juist
+data verzameld om te leren hoe deze \textit{software} precies werkt. Als deze data op een
+of andere manier weer veranderd of vernietigd wordt heeft het onderzoek dus weinig
+tot geen nut.
+
+\subsection{Scheiden van systemen}
+Virtualisatie kan het probleem dat bij virus onderzoek optreedt verhelpen.
+Vanuit een hoofdbesturingssysteem kunnen gastbesturingssystemen worden waargenomen.
+De gastsystemen kunnen worden
+ge\"{i}nfecteerd met een bepaald virus terwijl het hoofdsysteem hiervoor niet
+vatbaar is. Dit doordat virtualisatie er voor zorgt dat de twee systemen volledig
+gescheiden zijn. Vervolgens kan het gastbesturingssysteem vanuit het hoofdbesturingssysteem
+worden waargenomen.
+Het uiteindelijke doel hiervan zal zijn om informatie over deze
+virussen te vergaren en in de toekomst de virussen te slim af te zijn.
+
+
+\subsection{Detecteren van virtualisatie}
+Het onderzoek naar virussen wordt echter gehinderd door \textit{malware} dat
+virtualisatie kan detecteren. Als er wordt ontdekt dat er gebruik wordt gemaakt
+van virtualisatie kan de kwaadaardige \textit{software} het onderzoek verstoren
+en op deze manier de onderzoeker verwarren.
+
+Het ontdekken van virtualisatie kan bijvoorbeeld gebeuren door te zoeken naar
+communicatie kanalen tussen het hoofd- en het gastbesturingssysteem. Als deze
+worden gevonden duidt dit op virtualisatie. Vervolgens kan het virus gaan interfereren
+op dit communicatie kanaal waardoor er dus verkeerde gegevens worden verstuurd.
+
+Het is daarom ook belangrijk om er voor te zorgen dat het virus de virtualisatie niet
+kan detecteren. De manier van verhullen is echter wel afhankelijk van de manier
+waarop deze geprobeerd wordt te ontdekken. De bovenstaande manier is volgens
+het onderzoek van Carpenter de meest gebruikte manier. \cite{carpenter2007hiding}
+
+Het verhullen van deze manier kan gedaan worden door in de \textit{software} die
+voor de virtualisatie zorgt een aantal aanpassingen in de instellingen te doen.
+Het gaat er hierbij om dat door de instellingen te veranderen, de taal waarmee
+de besturingssystemen met elkaar communiceren gewijzigd wordt. Hierdoor herkennen
+de virussen niet meer dat er gecommuniceerd wordt tussen hoofd- en gastbesturingssystemen
+en detecteren ze niet meer dat er gebruik gemaakt wordt van virtualisatie. Op die manier kan er
+dus betrouwbaarder onderzoek gedaan worden.
+
+\subsection{Deel conclusie}
+Virtualisatie kan systemen scheiden waardoor er op een veilige manier onderzoek
+naar virussen gedaan kan worden. Er moet om betrouwbare resultaten uit het onderzoek te krijgen wel gezorgd worden
+dat het virus de resultaten niet be\"{i}nvloed. Dit kan gedaan worden door de
+virtualisatie te verbergen.
+
+
+VANAF HIER NAKIJKEN
+
+\section{Virtualisatie en virusscanners}
+Virusscanners zijn er voor ontworpen om computers zo goed mogelijk te beschermen
+tegen virussen. Het probleem is echter vaak dat zodra \textit{malware} een computer heeft
+ge\"{i}nfecteerd deze de virusscanner zal proberen uit te schakelen. Virtualisatie
+biedt wellicht een uitkomst voor dit probleem. Door de virusscanner op een apart
+virtueel systeem te laten draaien is deze niet meer vatbaar voor het virus.
+
+\subsection{Virtual Machine Introspection tools}
+\textit{Virtual Machine Introspection} tools afgekort VMI tools, zijn tools die
+er ervoor zorgen dat een virtuele machine van buiten af kan worden waargenomen.
+Met behulp van deze tools kan een virusscanner het systeem dus in de gaten houden
+zonder dat het zelf gevaar loopt om ge\"{i}nfecteerd te worden.
+\cite{garfinkel2003virtual}
+
+Er zijn veel verschillende manieren waarop een VMI tool kan werken, zo kan de
+tool slechts waarnemen en eventuele problemen doorgeven aan het besturingssystemen,
+maar het zou ook direct kunnen ingrijpen.
+Het detecteren van eventuele virussen kan ook op verschillende manieren gebeuren,
+als voorbeeld kunnen de \textit{hash} tabellen van de instructie- en geheugen pagina's
+worden vergeleken. Mocht hier geen match tussen zijn dan is de instructie pagina
+waarschijnlijk corrupt.
+\cite{nance2008virtual}
+
+\subsection{Actief waarnemen}
+Het probleem van de tools die gebruikt worden om de virtuele machines met elkaar
+te verbinden is dat deze afhankelijk zijn van passief waarnemen. Dit houdt in
+dat de virusscanners pas achteraf en niet preventief kunnen ingrijpen. Als er
+alleen maar passief waargenomen zou kunnen worden zou er geen toekomst zijn in de verdere
+ontwikkeling van een volledig anti-virus systeem dat draait op een virtuele machine.
+
+In plaats van het systeem passief waar te nemen kan dit ook actief gebeuren.
+Met het actief waarnemen van een systeem wordt bedoelt dat er via een koppeling
+actief naar het waar te nemen systeem wordt gekeken en dat er op die manier ook
+preventief gehandeld kan worden.
+
+Via deze koppeling kunnen handelingen die de computer uitvoert worden bekeken.
+Bij deze handelingen kan er gedacht worden aan het aan maken van processen, het
+schrijven naar een harde schijf en dergelijke. Deze processen kunnen dan beveiligd
+worden en verdachte activiteiten, die op \textit{malware} zouden kunnen duiden,
+kunnen worden herkent. \cite{payne2008lares}
+
+\subsection{Deel conclusie}
+Virtuele systemen zijn uiterst geschikt om virusscanners veiliger te maken. Door
+deze op een apart systeem te laten draaien zijn ze niet vatbaar voor de virussen
+zelf. Als er een koppeling tussen het systeem van de virusscanner en het te observeren
+systeem wordt geplaatst kunnen deze virusscanner op dezelfde manier werken als
+normale virusscanners.
+
+
+%-------------------------------------------------------------------------------
+%	DISCUSSIE
+%-------------------------------------------------------------------------------
+\section{Discussie}
+In dit onderzoek is er gekeken naar op welke verschillende manieren virtualisatie
+gebruikt kan worden bij het beschermen van computers tegen virussen. Het is
+gebleken dat virtualisatie op meerdere manieren kan worden ingezet bij het
+beschermen van computers tegen virussen.
+
+Helaas zijn lang niet alle onderzoeken naar het gebruik van virtualisatie
+bij het beschermen van computers tegen virussen openbaar. Dit komt waarschijnlijk omdat
+er veel geld te verdienen is met bijvoorbeeld virusscanners en daarom dus ook
+met onderzoek wat betrekking heeft op virtualisatie en virussen. Dat is dan ook
+rede waarom er veel patenten op dit gebied zijn.
+
+\subsection{Conclusie}
+Virtualisatie biedt een veilige omgeving waarin systemen elkaar niet kunnen
+infecteren. Daardoor kan virtualisatie zowel bij onderzoek naar virussen als bij
+het daadwerkelijk verhelpen en beschermen tegen virussen worden gebruikt.
+
+%-------------------------------------------------------------------------------
+%	REFERENTIES
+%-------------------------------------------------------------------------------
+\bibliography{references}
+\bibliographystyle{plainnat}
+
+%-------------------------------------------------------------------------------
+%	BIJLAGEN EN EINDE
+%-------------------------------------------------------------------------------
+%\section{Bijlage A}
+%\section{Bijlage B}
+%\section{Bijlage C}
+
+\end{document}

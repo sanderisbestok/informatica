@@ -1,0 +1,22 @@
+# Sander Hansen 10995080
+
+@include "Mips.wasm"
+
+.data MyRegisters : REGISTERS
+0x00 : WORD 0x00 # put $0 to zero (default assumption)
+
+.data MyMemory : DATAMEM 
+0x00 : WORD x 0
+
+.code MyCode: MIPS, MyMemory
+
+# uw code hier
+start:
+
+    BNE $0, $0, voorspeld
+    BEQ $0, $1, start
+    BEQ $0, $0, start
+
+voorspeld:
+    ADD $0, $0, $0
+    

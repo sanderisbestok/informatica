@@ -1,0 +1,45 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+def f(t, x):
+    return ((np.e**(-1 * (x-3*t)**2)) * np.sin((3 * np.pi) * (x-t)))
+
+if __name__ == "__main__":
+    x = np.linspace(-4, 4, 10000)
+    y1 = f(-0.5, x)
+    y2 = f(-0.25, x)
+    y3 = f(0, x)
+    y4 = f(0.25, x)
+    y5 = f(0.5, x)
+
+
+    fig = plt.figure(figsize=(10,10))
+    fig.canvas.set_window_title('ft(x) = e^(-(x-3t^2))*sin(3pi(x-t))')
+    plt.subplot(5,1,1)
+    plt.plot(x, y1)
+    plt.xlabel('x')
+    plt.ylabel('y(x)')
+    plt.title("t = -0.5")
+    plt.subplot(5,1,2)
+    plt.plot(x, y2)
+    plt.xlabel('x')
+    plt.ylabel('y(x)')
+    plt.title("t = -0.25")
+    plt.subplot(5,1,3)
+    plt.plot(x, y3)
+    plt.xlabel('x')
+    plt.ylabel('y(x)')
+    plt.title("t = 0")
+    plt.subplot(5,1,4)
+    plt.plot(x, y4)
+    plt.xlabel('x')
+    plt.ylabel('y(x)')
+    plt.title("t = 0.25")
+    plt.subplot(5,1,5)
+    plt.plot(x, y5)
+    plt.xlabel('x')
+    plt.ylabel('y(x)')
+    plt.title("t = 0.5")
+    plt.axis([-4, 4, -1, 1])
+    plt.tight_layout()
+    plt.show()

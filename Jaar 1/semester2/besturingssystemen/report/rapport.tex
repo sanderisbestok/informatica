@@ -1,0 +1,240 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LATEX-TEMPLATE TECHNISCH RAPPORT
+%-------------------------------------------------------------------------------
+% Voor informatie over het technisch rapport, zie
+% http://practicumav.nl/onderzoeken/rapport.html
+% Voor readme en meest recente versie van het template, zie
+% https://gitlab-fnwi.uva.nl/informatica/LaTeX-template.git
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-------------------------------------------------------------------------------
+%	PACKAGES EN DOCUMENT CONFIGURATIE
+%-------------------------------------------------------------------------------
+
+\documentclass{uva-inf-article}
+\usepackage[dutch]{babel}
+\usepackage{listings}
+
+% Relevant voor refereren vanaf blok 5
+%\usepackage[style=authoryear-comp]{biblatex}
+%\addbibresource{bib}
+
+%-------------------------------------------------------------------------------
+%	GEGEVENS VOOR IN DE TITEL
+%-------------------------------------------------------------------------------
+
+% Vul de naam van de opdracht in.
+\assignment{Besturingssystemen}
+% Vul het soort opdracht in.
+\assignmenttype{Report}
+% Vul de titel van de eindopdracht in.
+\title{Myalloc}
+
+% Vul de volledige namen van alle auteurs in.
+\authors{Shakirullah Hamza; Sander Hansen}
+% Vul de corresponderende UvAnetID's in.
+\uvanetids{11061413; 10995080}
+
+% Vul altijd de naam in van diegene die het nakijkt, tutor of docent.
+\tutor{}
+% Vul eventueel ook de naam van de docent of vakcoordinator toe.
+\docent{}
+% Vul hier de naam van de PAV-groep  in.
+\group{}
+% Vul de naam van de cursus in.
+\course{}
+% Te vinden op onder andere Datanose.
+\courseid{}
+
+% Dit is de datum die op het document komt te staan. Standaard is dat vandaag.
+\date{\today}
+
+%-------------------------------------------------------------------------------
+%	VOORPAGINA
+%-------------------------------------------------------------------------------
+
+\begin{document}
+\maketitle
+
+%-------------------------------------------------------------------------------
+%	INHOUDSOPGAVE EN ABSTRACT
+%-------------------------------------------------------------------------------
+
+% Niet doen bij korte verslagen en rapporten
+%\tableofcontents
+%\begin{abstract}
+%\lipsum[13]
+%\end{abstract}
+
+%-------------------------------------------------------------------------------
+%	INTRODUCTIE
+%-------------------------------------------------------------------------------
+
+\section{Introductie}
+Bij deze opdracht voor besturingssystem was het doel om een eigen geheugen allocatie
+functie te implementeren. In dit technische rapport zijn de doelen te vinden die
+wij geprobeerd hebben te halen. Vervolgens is er een overzicht van welke datastructuren
+en algoritmes wij gebruikt hebben.
+\subsection{Doelen}
+De doelen die wij geprobeerd hebben te halen zijn;
+\begin{enumerate}
+\item Auteurs bestand en report.pdf
+\item Geen errors
+\item Geen warnings
+\item Werkende mmalloc
+\item Werkende mmfree
+\end{enumerate}
+
+%-------------------------------------------------------------------------------
+%	METHODE
+%-------------------------------------------------------------------------------
+
+\section{Methode}
+\subsection{Datastructuren}
+\subsubsection{Header}
+De header structuur is een datastructuur die informatie bevat over het geheugen.
+De voornaamste reden dat deze datastructuur is bestaat is omdat deze in een \textit{array}
+bijhoud welke \textit{banks} actief zijn. Ook bevat het een getal dat aangeeft hoeveel
+\textit{banks} er in totaal beschikbaar zijn in het geheugen. Het bevat ook nog twee
+getallen die aangeven waar de header start en waar deze eindigd.
+\begin{lstlisting}
+struct mm_state {
+    size_t startBank;
+    size_t endBank;
+    struct nodeInfo* next;
+    size_t totalBanks;
+    char activeBanks[];
+};
+\end{lstlisting}
+
+\subsubsection{node}
+Deze datastructuur bevat informatie over een bepaald stuk gealloceerd geheugen.
+Zo bevat het twee getallen die aangeven bij welke \textit{bank} de \textit{node} start en bij welke
+deze eindigd. Verder wijst deze \textit{node} naar een eventuele volgende \textit{node}
+en bevat het een getal die aangeeft of de \textit{node} leeg is of nog gevuld.
+\begin{lstlisting}
+struct nodeInfo {
+    size_t startBank;
+    size_t endBank;
+    struct nodeInfo* next;
+    size_t empty;
+};
+\end{lstlisting}
+\subsection{Algortimes}
+\subsubsection{Initialisatie}
+De initialisatie wordt eenmalig uitgevoerd om het geheugen te initialiseren. Tijdens de
+initialisatie zullen een aantal gegevens over het geheugen worden opgeslagen. Vervolgens
+zal deze datastructuur als \textit{return} waarde worden teruggegeven.
+
+\begin{lstlisting}
+hoeveelheidBanks = krijgRamInfo()
+
+banksNodigVoorInit = ((grootteHeader + Bankgrootte - 1) +
+	(charGrootte * hoeveelheidBanks)) / bankGrootte)
+
+voor elke banksNodigVoorInit
+	activeer bank
+
+header.start = 0
+header.volgende = NULL
+header.einde = banksNodigVoorInit - 1
+header.hoeveelheidBanks = hoeveelheidBanks
+
+voor elke hoeveelheidBanks
+    als banksNodigVoorInit
+	   header.actieveBanks is 1
+    anders
+       header.actieveBanks is 0
+
+return header
+\end{lstlisting}
+\subsubsection{Allocatie}
+De allocatie wordt uitgevoerd als er geheugen gealloceerd moet worden. Deze functie wordt
+aangeroepen met een \textit{header} en een bepaalde hoeveel \textit{bytes} die moeten worden
+gealloceerd. Er wordt berekent hoeveel \textit{banks} er nodig zijn en vervolgens
+wordt er gekeken of en waar deze hoeveelheid \textit{banks} in het geheugen geplaatst kan worden.
+Hij returned een pointer met het geheugen adres.
+\begin{lstlisting}
+banksNodigVoorAlloc = ((grootteNode + hoeveelheidBytesNode + bankGrootte -1)
+    / bankGrootte)
+
+als header.volgende is NULL
+    geheugenAdress = (basisAdress + header.einde + 1) * bankGrootte
+    node = geheugenAdress
+    node.start = header.einde + 1
+    node.einde = node.start + banksNodigVoorAlloc -1
+    node.volgende = NULL
+    node.leeg = 0
+    activeerBanks()
+
+    return geheugenadress
+
+huidige = header.volgende
+
+zolang 1
+    als huidige.leeg is 0
+        als huidige.volgende is niet 0
+            huidige = huidige.volgende
+        anders
+            als banksNodigVoorAlloc past in het geheugen
+                geheugenAdress = (basisAdress + huidige.einde + 1) * bankGrootte
+                node = geheugenAdress
+                node.start = huidige.einde + 1
+                node.einde = node.start + banksNodigVoorAlloc -1
+                node.volgende = NULL
+                node.leeg = 0
+                activeerBanks()
+
+                return geheugenadress
+            anders
+                return 0
+    anders
+        als banksNodigVoorAlloc past in de Node
+            node.leeg = 1
+            als nog ruimte over in Node
+                geheugenAdress = (basisAdress + huidige.einde + 1) * bankGrootte
+                node = geheugenAdress
+                node.start = huidige.einde + 1
+                node.einde = node.start + banksNodigVoorAlloc -1
+                node.volgende = NULL
+                node.leeg = 0
+            return geheugenadress;
+        anders
+            als huidige.einde is totalBanks
+
+            return 0
+
+\end{lstlisting}
+
+\subsubsection{Vrijgeven}
+Het vrijgeven wordt aangeroepen wanneer een bepaald stuk geheugen niet meer gebruikt
+wordt. Deze functie wordt aangeroepen met de \textit{header} en een \textit{pointer}
+naar het adres waar dit geheugen zich bevindt.
+
+\begin{lstlisting}
+adres = (pointer - basisAdres - grootteVanNode) / bankGrootte
+
+node = header.volgende
+
+zolang 1
+    als node.start is adres
+        node.leeg = 1
+        return
+    anders
+        node = node.volgende
+\end{lstlisting}
+
+%-------------------------------------------------------------------------------
+%	REFERENTIES
+%-------------------------------------------------------------------------------
+
+%\printbibliography
+
+%-------------------------------------------------------------------------------
+%	BIJLAGEN EN EINDE
+%-------------------------------------------------------------------------------
+
+%\section{Bijlage A}
+%\section{Bijlage B}
+%\section{Bijlage C}
+\end{document}

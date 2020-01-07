@@ -1,0 +1,20 @@
+LISTEN TO ME VERY CAREFULLY main
+	YOU SET US UP a 0
+	DO IT NOW fib 11 :: a
+
+	IT'S SHOW TIME a
+
+
+LISTEN TO ME VERY CAREFULLY fib n
+	YOU SET US UP a 0
+	YOU SET US UP b 1
+
+	I'LL BE BACK n
+		GET DOWN n n 1
+		YOU SET US UP temp 0
+		GET UP temp a b
+		
+		GET UP a 0 b
+		GET UP b 0 temp
+	
+	HASTA LA VISTA, BABY a

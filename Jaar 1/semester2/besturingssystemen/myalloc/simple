@@ -1,0 +1,25 @@
+starting trace file: simple.t
+mm_alloc(st, 42); // -> 0x8ea800
+mm_free(st, 0x8ea800);
+mm_alloc(st, 42); // -> 0x8ea800
+mm_free(st, 0x8ea800);
+mm_alloc(st, 42); // -> 0x8ea800
+mm_free(st, 0x8ea800);
+mm_alloc(st, 42); // -> 0x8ea800
+mm_free(st, 0x8ea800);
+mm_alloc(st, 42); // -> 0x8ea800
+mm_free(st, 0x8ea800);
+## end of simulation ##
+# cnt mm_alloc/mm_free: 5/5
+# cnt failed allocations despite free space: 0 (0.0%)
+# cnt hw_activate/hw_deactivate: 6/5
+# max number of banks active: 2
+# cnt banks left activated at end: 1
+# avg external overhead (bytes): 1826.110
+# max external overhead (bytes): 2006
+# total time (virtual ms): 2222
+# total energy usage (virtual mJ): 4037
+# avg power usage (virtual W): 1.817
+#
+# performance (op / s): 12.151
+# performance/watt (op / J): 6.688

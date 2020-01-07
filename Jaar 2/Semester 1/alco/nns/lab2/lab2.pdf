@@ -1,0 +1,1026 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<< /F1 2 0 R /F2 3 0 R /F3 10 0 R /F4 17 0 R >>
+endobj
+2 0 obj
+<< /BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font >>
+endobj
+3 0 obj
+<< /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font >>
+endobj
+4 0 obj
+<< /A << /S /URI /Type /Action /URI (mailto:J.Wang2@uva.nl) >> /Border [ 0 0 0 ] /Rect [ 155.5029 704.7736 231.7929 716.7736 ] /Subtype /Link /Type /Annot >>
+endobj
+5 0 obj
+<< /A << /S /URI /Type /Action /URI (mailto:r.a.valkering@uva.nl) >> /Border [ 0 0 0 ] /Rect [ 151.0429 686.7736 242.3329 698.7736 ] /Subtype /Link /Type /Annot >>
+endobj
+6 0 obj
+<< /A << /S /URI /Type /Action /URI (mailto:daniel.louwrink@student.uva.nl) >> /Border [ 0 0 0 ] /Rect [ 159.9329 668.7736 298.4729 680.7736 ] /Subtype /Link /Type /Annot >>
+endobj
+7 0 obj
+<< /A << /S /URI /Type /Action /URI (mailto:daan.kruis@student.uva.nl) >> /Border [ 0 0 0 ] /Rect [ 138.2629 650.7736 256.8029 662.7736 ] /Subtype /Link /Type /Annot >>
+endobj
+8 0 obj
+<< /A << /S /URI /Type /Action /URI (https://www.python.org/) >> /Border [ 0 0 0 ] /Rect [ 178.9641 413.7736 286.7003 425.7736 ] /Subtype /Link /Type /Annot >>
+endobj
+9 0 obj
+<< /A << /S /URI /Type /Action /URI (http://docs.python.org/library/socket.html) >> /Border [ 0 0 0 ] /Rect [ 240.5629 347.7736 420.0829 359.7736 ] /Subtype /Link /Type /Annot >>
+endobj
+10 0 obj
+<< /BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font >>
+endobj
+11 0 obj
+<< /A << /S /URI /Type /Action /URI (http://pep8online.com) >> /Border [ 0 0 0 ] /Rect [ 62.69291 266.7736 158.3029 278.7736 ] /Subtype /Link /Type /Annot >>
+endobj
+12 0 obj
+<< /Annots [ 4 0 R 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R 11 0 R ] /Contents 35 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 34 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 
+  /Trans <<  >> /Type /Page >>
+endobj
+13 0 obj
+<< /A << /S /URI /Type /Action /URI (http://tools.ietf.org/html/rfc2616) >> /Border [ 0 0 0 ] /Rect [ 230.5429 690.7736 367.8329 702.7736 ] /Subtype /Link /Type /Annot >>
+endobj
+14 0 obj
+<< /A << /S /URI /Type /Action /URI (http://tools.ietf.org/html/rfc3875) >> /Border [ 0 0 0 ] /Rect [ 62.69291 315.7736 199.9829 327.7736 ] /Subtype /Link /Type /Annot >>
+endobj
+15 0 obj
+<< /Annots [ 13 0 R 14 0 R ] /Contents 36 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 34 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 
+  /Trans <<  >> /Type /Page >>
+endobj
+16 0 obj
+<< /A << /S /URI /Type /Action /URI (http://localhost:8080/cgi-bin/test.py) >> /Border [ 0 0 0 ] /Rect [ 85.69291 690.7736 242.4429 702.7736 ] /Subtype /Link /Type /Annot >>
+endobj
+17 0 obj
+<< /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font >>
+endobj
+18 0 obj
+<< /A << /S /URI /Type /Action /URI (http://tools.ietf.org/html/rfc5321) >> /Border [ 0 0 0 ] /Rect [ 372.2429 504.7736 509.5329 516.7736 ] /Subtype /Link /Type /Annot >>
+endobj
+19 0 obj
+<< /A << /S /URI /Type /Action /URI (http://tools.ietf.org/html/rfc3207) >> /Border [ 0 0 0 ] /Rect [ 122.0979 229.5736 259.3879 241.5736 ] /Subtype /Link /Type /Annot >>
+endobj
+20 0 obj
+<< /A << /S /URI /Type /Action /URI (http://tools.ietf.org/html/rfc4616) >> /Border [ 0 0 0 ] /Rect [ 324.8128 229.5736 462.1028 241.5736 ] /Subtype /Link /Type /Annot >>
+endobj
+21 0 obj
+<< /Annots [ 16 0 R 18 0 R 19 0 R 20 0 R ] /Contents 37 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 34 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 
+  /Trans <<  >> /Type /Page >>
+endobj
+22 0 obj
+<< /Contents 38 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 34 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
+endobj
+23 0 obj
+<< /Outlines 25 0 R /PageLabels 39 0 R /PageMode /UseNone /Pages 34 0 R /Type /Catalog >>
+endobj
+24 0 obj
+<< /Author () /CreationDate (D:20160907145423-01'00') /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
+  /Title (Lab 2 \205 HTTP and SMTP) >>
+endobj
+25 0 obj
+<< /Count 10 /First 26 0 R /Last 33 0 R /Type /Outlines >>
+endobj
+26 0 obj
+<< /Dest [ 12 0 R /XYZ 62.69291 527.0236 0 ] /Next 27 0 R /Parent 25 0 R /Title (Abstract) >>
+endobj
+27 0 obj
+<< /Dest [ 12 0 R /XYZ 62.69291 464.0236 0 ] /Next 28 0 R /Parent 25 0 R /Prev 26 0 R /Title (Preparation) >>
+endobj
+28 0 obj
+<< /Dest [ 12 0 R /XYZ 62.69291 335.0236 0 ] /Next 29 0 R /Parent 25 0 R /Prev 27 0 R /Title (Submission) >>
+endobj
+29 0 obj
+<< /Count 1 /Dest [ 15 0 R /XYZ 62.69291 765.0236 0 ] /First 30 0 R /Last 30 0 R /Next 31 0 R /Parent 25 0 R 
+  /Prev 28 0 R /Title (Task 1 \205 Basic HTTP Server \(12 pts\)) >>
+endobj
+30 0 obj
+<< /Dest [ 15 0 R /XYZ 62.69291 510.0236 0 ] /Parent 29 0 R /Title (Tips) >>
+endobj
+31 0 obj
+<< /Count 1 /Dest [ 15 0 R /XYZ 62.69291 366.0236 0 ] /First 32 0 R /Last 32 0 R /Next 33 0 R /Parent 25 0 R 
+  /Prev 29 0 R /Title (Task 2 \205 Common Gateway Interface \(8 pts\)) >>
+endobj
+32 0 obj
+<< /Dest [ 21 0 R /XYZ 62.69291 639.0236 0 ] /Parent 31 0 R /Title (Tips) >>
+endobj
+33 0 obj
+<< /Dest [ 21 0 R /XYZ 62.69291 543.0236 0 ] /Parent 25 0 R /Prev 31 0 R /Title (Task 3 \(BONUS\) \205 Authenticated SMTP \(5 bonus pts\)) >>
+endobj
+34 0 obj
+<< /Count 4 /Kids [ 12 0 R 15 0 R 21 0 R 22 0 R ] /Type /Pages >>
+endobj
+35 0 obj
+<< /Length 6934 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 120.4749 0 Td (Lab 2 \226 HTTP and SMTP) Tj T* -120.4749 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 719.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Assistants) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 650.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 56 Tm  T* ET
+q
+1 0 0 1 20 54 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Junchao Wang \() Tj 0 0 .501961 rg (J.Wang2@uva.nl) Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20 36 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Rex Valkering \() Tj 0 0 .501961 rg (r.a.valkering@uva.nl) Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20 18 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Dani\353l Louwrink \() Tj 0 0 .501961 rg (daniel.louwrink@student.uva.nl) Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20 0 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Daan Kruis \() Tj 0 0 .501961 rg (daan.kruis@student.uva.nl) Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 634.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Lab dates) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 619.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (09 and 14 Sep. 2016) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 603.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Deadline) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 588.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Sep. 15 at 23:59 CEST) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 572.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Total points) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 557.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (20 + 5 bonus) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 539.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (This lab must be done individually) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 506.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 476.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.239985 Tw (In this assignment, you will learn the basics of TCP socket programming and the HTTP and SMTP) Tj T* 0 Tw (protocols, which are essential for browsing the web and sending email.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 443.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Preparation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 401.0236 cm
+q
+BT 1 0 0 1 0 26 Tm .187882 Tw 12 TL /F1 10 Tf 0 0 0 rg (For this assignment you must use Python 2. This should already be installed on your computer. If it is not,) Tj T* 0 Tw .466235 Tw (you can download it from ) Tj 0 0 .501961 rg (https://www.python.org/ ) Tj 0 0 0 rg (or you can install it using your package manager if you) Tj T* 0 Tw (are running a GNU/Linux-based operating system.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 347.0236 cm
+q
+BT 1 0 0 1 0 38 Tm 1.169982 Tw 12 TL /F1 10 Tf 0 0 0 rg (Read the documentation on the socket module included with the standard Python distribution. Python\222s) Tj T* 0 Tw .414431 Tw (socket module is a direct translation of the Berkeley Sockets API for C. You can find examples on socket) Tj T* 0 Tw 3.62561 Tw (programming in Python in your textbook, section 2.6 or you can use Google. You can find the) Tj T* 0 Tw (documentation for the socket module at ) Tj 0 0 .501961 rg (http://docs.python.org/library/socket.html) Tj 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 314.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Submission) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 296.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (IMPORTANT: Make sure your code is PEP8 compliant.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 266.0236 cm
+q
+BT 1 0 0 1 0 14 Tm 2.58686 Tw 12 TL /F1 10 Tf 0 0 0 rg (You can check your code by installing a PEP8 checker such as the command-line utility ) Tj /F3 10 Tf 0 0 0 rg (pep8 ) Tj /F1 10 Tf 0 0 0 rg (or) Tj T* 0 Tw 0 0 .501961 rg (http://pep8online.com) Tj 0 0 0 rg (. Points will be subtracted if your code is badly formatted.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 224.0236 cm
+q
+BT 1 0 0 1 0 26 Tm 38.06854 Tw 12 TL /F1 10 Tf 0 0 0 rg (Submit your working code in an archive called) Tj T* 0 Tw 13.71744 Tw /F3 10 Tf 0 0 0 rg (lab2-) Tj (<) Tj (last_name) Tj (>) Tj (_) Tj (<) Tj (first_letter_of_first_name) Tj (>) Tj (.zip ) Tj /F1 10 Tf 0 0 0 rg (\(or ) Tj /F3 10 Tf 0 0 0 rg (tar.gz) Tj /F1 10 Tf 0 0 0 rg (\). For example,) Tj T* 0 Tw /F3 10 Tf 0 0 0 rg (lab2-Louwrink_D.zip) Tj /F1 10 Tf 0 0 0 rg (. It should contain the following files:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 218.0236 cm
+Q
+q
+1 0 0 1 62.69291 218.0236 cm
+Q
+q
+1 0 0 1 62.69291 206.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (server.py ) Tj /F1 10 Tf 0 0 0 rg (\(task 1 + 2\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 200.0236 cm
+Q
+q
+1 0 0 1 62.69291 188.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (cgi-bin/test.py ) Tj /F1 10 Tf 0 0 0 rg (\(task 2\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 182.0236 cm
+Q
+q
+1 0 0 1 62.69291 170.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (cgi-bin/trace.py ) Tj /F1 10 Tf 0 0 0 rg (\(task 2\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 164.0236 cm
+Q
+q
+1 0 0 1 62.69291 152.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (cgi-bin/email.py ) Tj /F1 10 Tf 0 0 0 rg (\(task 3, if you implemented SMTP\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 146.0236 cm
+Q
+q
+1 0 0 1 62.69291 134.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (public_html/*) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 134.0236 cm
+Q
+q
+1 0 0 1 62.69291 104.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .25832 Tw (Please do not forget to include your name, your student number and a short description of the program at) Tj T* 0 Tw (the top of each file.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+36 0 obj
+<< /Length 8656 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 744.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Task 1 \226 Basic HTTP Server \(12 pts\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 690.0236 cm
+q
+BT 1 0 0 1 0 38 Tm .726655 Tw 12 TL /F1 10 Tf 0 0 0 rg (In this first task you will need to implement a simple web server that can handle a single client at a time) Tj T* 0 Tw .169431 Tw (\(you will also learn how to handle multiple clients\). You must parse HTTP requests sent by the client \(web) Tj T* 0 Tw .977984 Tw (browser\) and send appropriate responses. You may ignore any request headers for now. You can read) Tj T* 0 Tw (more about the HTTP specification at ) Tj 0 0 .501961 rg (http://tools.ietf.org/html/rfc2616) Tj 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 648.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .191235 Tw (HTTP implements a variety of methods including GET, POST, PUT, DELETE and many more. In this task) Tj T* 0 Tw .537882 Tw (you will only need to respond to GET requests. If the client tries any other method, you should follow the) Tj T* 0 Tw (HTTP specification and throw a 501 error \(Not Implemented\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 606.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .883798 Tw (When you receive a request for a file, your server should go looking for that file. If the file is found, you) Tj T* 0 Tw .42104 Tw (should serve it and respond with a code 200 OK, which means everything went well. If you could not find) Tj T* 0 Tw (the file, respond with a 404 Not Found.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 552.0236 cm
+q
+BT 1 0 0 1 0 38 Tm 1.40436 Tw 12 TL /F1 10 Tf 0 0 0 rg (After the response is sent close the connection and wait for the next client. HTTP responses normally) Tj T* 0 Tw 2.608651 Tw (contain a number of response headers in order to control the transaction. Implement \(at least\) the) Tj T* 0 Tw 1.865529 Tw (following response headers: ) Tj /F3 10 Tf 0 0 0 rg (Connection) Tj /F1 10 Tf 0 0 0 rg (, ) Tj /F3 10 Tf 0 0 0 rg (Content-Type) Tj /F1 10 Tf 0 0 0 rg (, ) Tj /F3 10 Tf 0 0 0 rg (Content-Length ) Tj /F1 10 Tf 0 0 0 rg (and ) Tj /F3 10 Tf 0 0 0 rg (Server) Tj /F1 10 Tf 0 0 0 rg (. For the) Tj T* 0 Tw /F3 10 Tf 0 0 0 rg (Server ) Tj /F1 10 Tf 0 0 0 rg (header, you can make up a nice name for your web server.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 522.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .794985 Tw 12 TL /F1 10 Tf 0 0 0 rg (To help you test, we have included a sample website in the ) Tj /F3 10 Tf 0 0 0 rg (public_html ) Tj /F1 10 Tf 0 0 0 rg (directory with an index.html) Tj T* 0 Tw (which you can try to access.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 492.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Tips) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 480.0236 cm
+Q
+q
+1 0 0 1 62.69291 480.0236 cm
+Q
+q
+1 0 0 1 62.69291 444.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.157356 Tw (If you're a bit confused as to what kind of request the browser will send you, create a socket and) Tj T* 0 Tw .779988 Tw (point your browser at it. It will make a request and the socket will allow you to see exactly how the) Tj T* 0 Tw (request is built.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 438.0236 cm
+Q
+q
+1 0 0 1 62.69291 426.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (You're not allowed to use the HTTP module in Python for obvious reasons.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 420.0236 cm
+Q
+q
+1 0 0 1 62.69291 396.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .297984 Tw (The standard page includes an image. Because this image triggers a separate HTTP request, this is) Tj T* 0 Tw (a real good way to check if your server can handle multiple connections well.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 390.0236 cm
+Q
+q
+1 0 0 1 62.69291 378.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Be sure to use the right line endings!) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 378.0236 cm
+Q
+q
+1 0 0 1 62.69291 345.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Task 2 \226 Common Gateway Interface \(8 pts\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 279.0236 cm
+q
+BT 1 0 0 1 0 50 Tm 9.05498 Tw 12 TL /F1 10 Tf 0 0 0 rg (In this task you will make your website dynamic. CGI \(common gateway interface,) Tj T* 0 Tw 1.178314 Tw 0 0 .501961 rg (http://tools.ietf.org/html/rfc3875) Tj 0 0 0 rg (\) is a standard interface for web servers to serve dynamic content rather) Tj T* 0 Tw 2.069984 Tw (than static pages. It works by executing scripts as external processes and redirecting ) Tj /F3 10 Tf 0 0 0 rg (stdout ) Tj /F1 10 Tf 0 0 0 rg (as a) Tj T* 0 Tw 1.542485 Tw (response back to the client. The parameters are given by a number of environment variables that the) Tj T* 0 Tw (script can read and process. In this case, we will use CGI to use Python scripts to generate content.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 201.0236 cm
+q
+BT 1 0 0 1 0 62 Tm .909987 Tw 12 TL /F1 10 Tf 0 0 0 rg (Your task is to implement a subset of CGI, as follows. Whenever the client requests a URI starting with) Tj T* 0 Tw 2.517674 Tw /F3 10 Tf 0 0 0 rg (/cgi-bin) Tj /F1 10 Tf 0 0 0 rg (, you must execute the requested Python script from the ) Tj /F3 10 Tf 0 0 0 rg (/cgi-bin ) Tj /F1 10 Tf 0 0 0 rg (directory instead of) Tj T* 0 Tw .079986 Tw (sending its contents directly \(this is important for when you start saving your SQL passwords and what not) Tj T* 0 Tw .555868 Tw (in there, you don't want to accidentally serve those\). The HTTP server must output the HTTP status line,) Tj T* 0 Tw .991751 Tw (but the headers and contents of the response are output separately by the script. The script outputs by) Tj T* 0 Tw (printing to ) Tj /F3 10 Tf 0 0 0 rg (stdout) Tj /F1 10 Tf 0 0 0 rg (, so the server must pipe the script process\222s ) Tj /F3 10 Tf 0 0 0 rg (stdout ) Tj /F1 10 Tf 0 0 0 rg (to the client socket.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 183.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (You must pass the following environment variables to the script:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 177.0236 cm
+Q
+q
+1 0 0 1 62.69291 177.0236 cm
+Q
+q
+1 0 0 1 62.69291 165.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (DOCUMENT_ROOT: ) Tj /F1 10 Tf 0 0 0 rg (The ) Tj /F3 10 Tf 0 0 0 rg (public_html ) Tj /F1 10 Tf 0 0 0 rg (directory.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 159.0236 cm
+Q
+q
+1 0 0 1 62.69291 147.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (REQUEST_METHOD) Tj /F1 10 Tf 0 0 0 rg (: The HTTP request method that was used to access the script.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 141.0236 cm
+Q
+q
+1 0 0 1 62.69291 129.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (REQUEST_URI) Tj /F1 10 Tf 0 0 0 rg (: The requested URI, without query string.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 123.0236 cm
+Q
+q
+1 0 0 1 62.69291 87.02362 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 26 Tm 10.43543 Tw 12 TL /F3 10 Tf 0 0 0 rg (QUERY_STRING) Tj /F1 10 Tf 0 0 0 rg (: The query string following the URI, if any. For example, in) Tj T* 0 Tw 1.783555 Tw /F3 10 Tf 0 0 0 rg (/cgi-bin/hello.py?name=pietje ) Tj /F1 10 Tf 0 0 0 rg (the part before the ? is the URI, and the part after is the) Tj T* 0 Tw (query string.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 81.02362 cm
+Q
+ 
+endstream
+endobj
+37 0 obj
+<< /Length 7768 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 753.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (PATH) Tj /F1 10 Tf 0 0 0 rg (: The standard PATH environment variable copied from the HTTP server\222s own environment.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 747.0236 cm
+Q
+q
+1 0 0 1 62.69291 693.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 39 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (REMOTE_ADDR) Tj /F1 10 Tf 0 0 0 rg (: The IP address of the visitor.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 26 Tm 3.86816 Tw 12 TL /F1 10 Tf 0 0 0 rg (For testing, write a script accessed from ) Tj /F3 10 Tf 0 0 0 rg (/cgi-bin/test.py ) Tj /F1 10 Tf 0 0 0 rg (that outputs all environment) Tj T* 0 Tw 2.811751 Tw (variables passed to it. You should then be able to view that file by pointing your browser to) Tj T* 0 Tw 0 0 .501961 rg (http://localhost:8080/cgi-bin/test.py ) Tj 0 0 0 rg (\(adjusting the port is required\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 693.0236 cm
+Q
+q
+1 0 0 1 62.69291 651.0236 cm
+q
+BT 1 0 0 1 0 26 Tm .21561 Tw 12 TL /F1 10 Tf 0 0 0 rg (Secondly, create a Python program ) Tj /F3 10 Tf 0 0 0 rg (trace.py ) Tj /F1 10 Tf 0 0 0 rg (that takes an IP address as a GET argument and outputs) Tj T* 0 Tw .659431 Tw (the traceroute to that IP address through the CGI. You should use the traceroute built in to your system,) Tj T* 0 Tw (don't try to implement your own.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 621.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Tips) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 609.0236 cm
+Q
+q
+1 0 0 1 62.69291 609.0236 cm
+Q
+q
+1 0 0 1 62.69291 597.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Use the ) Tj /F3 10 Tf 0 0 0 rg (subprocess ) Tj /F1 10 Tf 0 0 0 rg (module to execute the Python CGI scripts.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 591.0236 cm
+Q
+q
+1 0 0 1 62.69291 555.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 26 Tm 2.696136 Tw 12 TL /F1 10 Tf 0 0 0 rg (For some real ) Tj /F4 10 Tf (Inception) Tj /F1 10 Tf (-like programming, you could create a Python script that executes the) Tj T* 0 Tw .172651 Tw /F3 10 Tf 0 0 0 rg (fortune ) Tj /F1 10 Tf 0 0 0 rg (program and pipes the output into ) Tj /F3 10 Tf 0 0 0 rg (cowsay) Tj /F1 10 Tf 0 0 0 rg (. Who knows, a cow giving good advise through) Tj T* 0 Tw (the internet could just be the next big thing.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 555.0236 cm
+Q
+q
+1 0 0 1 62.69291 522.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Task 3 \(BONUS\) \226 Authenticated SMTP \(5 bonus pts\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 504.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (In this task you will implement ) Tj /F4 10 Tf (sending ) Tj /F1 10 Tf (mail using the SMTP protocol \() Tj 0 0 .501961 rg (http://tools.ietf.org/html/rfc5321) Tj 0 0 0 rg (\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 474.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .484488 Tw 12 TL /F1 10 Tf 0 0 0 rg (To get a feel for how SMTP works, you might want to try an SMTP transaction yourself. You can use the) Tj T* 0 Tw (UvA server. In a terminal, try ) Tj /F3 10 Tf 0 0 0 rg (nc) Tj ( ) Tj (smtp.uva.nl) Tj ( ) Tj (587) Tj /F1 10 Tf 0 0 0 rg (. Try the example below:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 368.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 96 re B*
+Q
+q
+BT 1 0 0 1 0 74 Tm 12 TL /F3 10 Tf 0 0 0 rg (>) Tj ( nc smtp.uva.nl 587) Tj T* (..... response from the server ...) Tj T* (>) Tj ( HELO myserver.mydomain.nl) Tj T* (.... response from the server ...) Tj T* (>) Tj ( MAIL FROM my.account@student.uva.nl) Tj T* (.... reponse from the server .....) Tj T* (>) Tj ( QUIT) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 300.8236 cm
+q
+BT 1 0 0 1 0 50 Tm 1.190651 Tw 12 TL /F1 10 Tf 0 0 0 rg (We have included a web form to send mail in the file ) Tj /F3 10 Tf 0 0 0 rg (/public_html/email.html) Tj /F1 10 Tf 0 0 0 rg (. Please take your) Tj T* 0 Tw 1.648988 Tw (time to inspect the file. Most notable, look for the line that opens the ) Tj /F3 10 Tf 0 0 0 rg (form ) Tj /F1 10 Tf 0 0 0 rg (tag and take note of the) Tj T* 0 Tw .372209 Tw /F3 10 Tf 0 0 0 rg (action ) Tj /F1 10 Tf 0 0 0 rg (and ) Tj /F3 10 Tf 0 0 0 rg (method ) Tj /F1 10 Tf 0 0 0 rg (attributes. This tells your browser what to do when you click the send button at the) Tj T* 0 Tw 6.722651 Tw (bottom. In this case, your browser will send a GET request with the required data to) Tj T* 0 Tw /F3 10 Tf 0 0 0 rg (/cgi-bin/email.py) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 258.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .865868 Tw (You will need to write a CGI script in Python which will send mail using SMTP, including authentication.) Tj T* 0 Tw .29104 Tw (Again, Python includes an SMTP module but you're not allowed to use it. You will once more need to use) Tj T* 0 Tw (socket programming to create a connection between you and the SMTP server.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 216.8236 cm
+q
+BT 1 0 0 1 0 26 Tm .229987 Tw 12 TL /F1 10 Tf 0 0 0 rg (The task is to write a CGI script to send emails using the SMTP protocol including authentication. Use the) Tj T* 0 Tw 2.174961 Tw (STARTTLS \() Tj 0 0 .501961 rg (http://tools.ietf.org/html/rfc3207) Tj 0 0 0 rg (\) and AUTH \() Tj 0 0 .501961 rg (http://tools.ietf.org/html/rfc4616) Tj 0 0 0 rg (\) commands to) Tj T* 0 Tw (send emails over an encrypted and authenticated channel.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 174.8236 cm
+q
+BT 1 0 0 1 0 26 Tm .475868 Tw 12 TL /F1 10 Tf 0 0 0 rg (Use ) Tj /F3 10 Tf 0 0 0 rg (smtp.uva.nl ) Tj /F1 10 Tf 0 0 0 rg (as a test server on port 587. Use the ) Tj /F3 10 Tf 0 0 0 rg (username ) Tj /F1 10 Tf 0 0 0 rg (and ) Tj /F3 10 Tf 0 0 0 rg (password ) Tj /F1 10 Tf 0 0 0 rg (fields in the email) Tj T* 0 Tw .144692 Tw (web form for the authentication. At every step in the protocol you must print the server\222s responses, check) Tj T* 0 Tw (the response codes and quit in case of an error.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 144.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .790488 Tw (If all goes well, you should be able to send mail through your very own SMTP client which runs on your) Tj T* 0 Tw (very own HTTP server which are connected through your very own CGI. Well done!) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 126.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Tips:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 120.8236 cm
+Q
+q
+1 0 0 1 62.69291 120.8236 cm
+Q
+q
+1 0 0 1 62.69291 96.82362 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm 1.621751 Tw 12 TL /F1 10 Tf 0 0 0 rg (You will use TLS to secure the channel. For once, you won't have to implement it yourself! Just) Tj T* 0 Tw (import the ) Tj /F3 10 Tf 0 0 0 rg (ssl ) Tj /F1 10 Tf 0 0 0 rg (module and use the ) Tj /F3 10 Tf 0 0 0 rg (wrap_socket ) Tj /F1 10 Tf 0 0 0 rg (function from there.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 90.82362 cm
+Q
+ 
+endstream
+endobj
+38 0 obj
+<< /Length 982 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 705.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 45 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 50 Tm .801235 Tw 12 TL /F1 10 Tf 0 0 0 rg (You may want to test your Python SMTP implementation without connecting it to your CGI first. To) Tj T* 0 Tw .602765 Tw (do this, you can add the ) Tj /F3 10 Tf 0 0 0 rg (if) Tj ( ) Tj (__name__) Tj ( ) Tj (==) Tj ( ) Tj ('__main__': ) Tj /F1 10 Tf 0 0 0 rg (clause to your file. Any code that is in) Tj T* 0 Tw .957765 Tw (that block will only be executed is you execute the Python file directly \(or through the CGI, as that) Tj T* 0 Tw 1.224651 Tw (also directly executes the script\). Here, you should insert the code that reads the arguments from) Tj T* 0 Tw /F3 10 Tf 0 0 0 rg (sys.argv) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 705.0236 cm
+Q
+ 
+endstream
+endobj
+39 0 obj
+<< /Nums [ 0 40 0 R 1 41 0 R 2 42 0 R 3 43 0 R ] >>
+endobj
+40 0 obj
+<< /S /D /St 1 >>
+endobj
+41 0 obj
+<< /S /D /St 2 >>
+endobj
+42 0 obj
+<< /S /D /St 3 >>
+endobj
+43 0 obj
+<< /S /D /St 4 >>
+endobj
+xref
+0 44
+0000000000 65535 f
+0000000075 00000 n
+0000000141 00000 n
+0000000251 00000 n
+0000000366 00000 n
+0000000542 00000 n
+0000000724 00000 n
+0000000916 00000 n
+0000001103 00000 n
+0000001281 00000 n
+0000001478 00000 n
+0000001587 00000 n
+0000001764 00000 n
+0000002029 00000 n
+0000002219 00000 n
+0000002409 00000 n
+0000002645 00000 n
+0000002838 00000 n
+0000002957 00000 n
+0000003147 00000 n
+0000003337 00000 n
+0000003527 00000 n
+0000003777 00000 n
+0000003987 00000 n
+0000004096 00000 n
+0000004331 00000 n
+0000004409 00000 n
+0000004522 00000 n
+0000004651 00000 n
+0000004779 00000 n
+0000004977 00000 n
+0000005073 00000 n
+0000005277 00000 n
+0000005373 00000 n
+0000005534 00000 n
+0000005619 00000 n
+0000012610 00000 n
+0000021323 00000 n
+0000029148 00000 n
+0000030186 00000 n
+0000030257 00000 n
+0000030294 00000 n
+0000030331 00000 n
+0000030368 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com)
+ [(3\212\223\3343\016M]4L\276\341B8\235\270) (3\212\223\3343\016M]4L\276\341B8\235\270)]
+ /Info 24 0 R /Root 23 0 R /Size 44 >>
+startxref
+30405
+%%EOF

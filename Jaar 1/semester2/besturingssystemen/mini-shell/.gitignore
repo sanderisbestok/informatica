@@ -1,0 +1,9 @@
+*.o
+42sh
+42sh.tar.gz
+lemon
+lex.yy.c
+lex.yy.h
+parser.c
+parser.h
+parser.out

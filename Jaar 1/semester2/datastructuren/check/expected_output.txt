@@ -1,0 +1,12 @@
+board1.txt
+black king is in check.
+
+board2.txt
+no king is in check.
+
+board3.txt
+no king is in check.
+
+board4.txt
+white king is in check.
+

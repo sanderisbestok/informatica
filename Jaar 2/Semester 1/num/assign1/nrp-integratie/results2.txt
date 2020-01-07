@@ -1,0 +1,148 @@
+numerical integration:
+	precision: 0.1
+		f(x) = 4 / (x ^ 2 + 1):
+			left riemann sum:	3.0189315137690373
+			Minimal Interval:	12
+			right riemann sum:	2.839925988907159
+			Minimal Interval:	31
+			middle riemann sum:	2.9321763135162104
+			Minimal Interval:	21
+			trapezoidal rule:	2.9189315137690373
+			Minimal Interval:	22
+			simpson rule	:	2.9277613802671527
+			Minimal Interval:	21
+		f(x) = sin(x):
+			left riemann sum:	1.8864429855731812
+			Minimal Interval:	11
+			right riemann sum:	1.9835235375094546
+			Minimal Interval:	5
+			middle riemann sum:	1.9591030712941107
+			Minimal Interval:	7
+			trapezoidal rule:	1.8864429855731812
+			Minimal Interval:	11
+			simpson rule	:	1.9348830427204677
+			Minimal Interval:	9
+	precision: 0.01
+		f(x) = 4 / (x ^ 2 + 1):
+			left riemann sum:	3.1313749869736314
+			Minimal Interval:	103
+			right riemann sum:	3.1115759869231288
+			Minimal Interval:	301
+			middle riemann sum:	3.1215007369262664
+			Minimal Interval:	201
+			trapezoidal rule:	3.121374986973631
+			Minimal Interval:	202
+			simpson rule	:	3.121458820275388
+			Minimal Interval:	201
+		f(x) = sin(x):
+			left riemann sum:	1.9988487057878084
+			Minimal Interval:	34
+			right riemann sum:	1.9998355038874436
+			Minimal Interval:	13
+			middle riemann sum:	1.999588789144242
+			Minimal Interval:	21
+			trapezoidal rule:	1.9988487057878084
+			Minimal Interval:	34
+			simpson rule	:	1.9993420946920977
+			Minimal Interval:	26
+	precision: 0.001
+		f(x) = 4 / (x ^ 2 + 1):
+			left riemann sum:	3.1405904859231253
+			Minimal Interval:	1003
+			right riemann sum:	3.138592486923124
+			Minimal Interval:	3001
+			middle riemann sum:	3.1395917366731227
+			Minimal Interval:	2001
+			trapezoidal rule:	3.1395904859231245
+			Minimal Interval:	2002
+			simpson rule	:	3.1395913197564562
+			Minimal Interval:	2001
+		f(x) = sin(x):
+			left riemann sum:	1.9999884854774963
+			Minimal Interval:	108
+			right riemann sum:	1.9999983550656624
+			Minimal Interval:	41
+			middle riemann sum:	1.999995887667097
+			Minimal Interval:	65
+			trapezoidal rule:	1.9999884854774963
+			Minimal Interval:	108
+			simpson rule	:	1.9999934202705636
+			Minimal Interval:	82
+	precision: 0.0001
+		f(x) = 4 / (x ^ 2 + 1):
+			left riemann sum:	3.14149263192214
+			Minimal Interval:	10003
+			right riemann sum:	3.14129265192314
+			Minimal Interval:	30001
+			middle riemann sum:	3.1413926444228837
+			Minimal Interval:	20001
+			trapezoidal rule:	3.14139263192214
+			Minimal Interval:	20002
+			simpson rule	:	3.141392640255969
+			Minimal Interval:	20001
+		f(x) = sin(x):
+			left riemann sum:	1.9999998848546183
+			Minimal Interval:	340
+			right riemann sum:	1.9999999835506608
+			Minimal Interval:	129
+			middle riemann sum:	1.9999999588766542
+			Minimal Interval:	203
+			trapezoidal rule:	1.9999998848546183
+			Minimal Interval:	340
+			simpson rule	:	1.9999999342026422
+			Minimal Interval:	257
+	precision: 0.1
+		f(x) = 4 / (x ^ 2 + 1):
+			monte carlo: 2.8
+			Minimal samplesize:	5
+			uniform: 2.875837525842604
+			Minimal samplesize:	3
+		f(x) = sin(x):
+			monte carlo: 0.9424777960769379
+			Minimal samplesize:	6
+			uniform: 2.158705423438872
+			Minimal samplesize:	17
+	precision: 0.01
+		f(x) = 4 / (x ^ 2 + 1):
+			monte carlo: 3.1799999999999997
+			Minimal samplesize:	30
+			uniform: 3.195116296011631
+			Minimal samplesize:	6
+		f(x) = sin(x):
+			monte carlo: 2.1362830044410597
+			Minimal samplesize:	11
+			uniform: 1.965616620960809
+			Minimal samplesize:	9
+	precision: 0.001
+		f(x) = 4 / (x ^ 2 + 1):
+			monte carlo: 3.17
+			Minimal samplesize:	212
+			uniform: 3.135286024123393
+			Minimal samplesize:	28
+		f(x) = sin(x):
+			monte carlo: 1.944645852572082
+			Minimal samplesize:	143
+			uniform: 2.0312171806587758
+			Minimal samplesize:	263
+	precision: 0.0001
+		f(x) = 4 / (x ^ 2 + 1):
+			monte carlo: 3.1328
+			Minimal samplesize:	727
+			uniform: 3.1526769124861316
+			Minimal samplesize:	131
+		f(x) = sin(x):
+			monte carlo: 2.005278590786365
+			Minimal samplesize:	754
+			uniform: 1.997071606454267
+			Minimal samplesize:	74
+	precision: 1e-05
+		f(x) = 4 / (x ^ 2 + 1):
+			monte carlo: 3.1372
+			Minimal samplesize:	5438
+			uniform: 3.1411346780264715
+			Minimal samplesize:	2891
+		f(x) = sin(x):
+			monte carlo: 2.003739210386106
+			Minimal samplesize:	2496
+			uniform: 2.0061737880795865
+			Minimal samplesize:	4779

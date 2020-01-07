@@ -1,0 +1,20 @@
+## Challenge Identification
+
+stolen_answer
+
+## Hypothesis
+
+Met see kan je principe in elke map komen die niet apart in see.c beveiligd is.
+Als we weten naar welk bestand we zoeken en dat weten we want dat is de token,
+kan je met see het bestand zien. Dus d.m.v (cd ..) (see ./chahng_k/TOKEN) is de
+token te zien.
+
+## Token
+
+U2FsdGVkX1+z6oLbSbl+ZZUZlsae6J08AsOyHjV6CLwcINTVEQ3BUzl0sQ9BLt3K
+
+## Proposed fix
+
+Voor deze opdracht hoeft geen fix gegeven te worden. Maar het probleem ligt
+hem dus wederom bij see, want zolang de bestandsnaam bekend is kan het bestand
+worden gevonden.

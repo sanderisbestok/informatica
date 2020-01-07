@@ -1,0 +1,14 @@
+################################################################################
+###		lottery
+################################################################################
+###		Level: 			5
+###		Fix level:		N/A
+################################################################################
+
+	OBJ:
+		Win the lottery and get the prize token.
+	ACCESS:
+		telnet 37.187.23.81 50623
+	STARTING POINT:
+		The north korean goverment has bought a old pseudo random number
+		generator on ebay.

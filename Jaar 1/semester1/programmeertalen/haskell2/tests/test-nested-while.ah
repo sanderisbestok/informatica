@@ -1,0 +1,14 @@
+LISTEN TO ME VERY CAREFULLY main
+	YOU SET US UP a 0
+	YOU SET US UP b 10
+	
+	I'LL BE BACK b
+		GET DOWN b b 1		
+	
+		YOU SET US UP c 10
+		I'LL BE BACK c
+			GET DOWN c c 1
+			GET UP a a 1
+		
+	
+	IT'S SHOW TIME a

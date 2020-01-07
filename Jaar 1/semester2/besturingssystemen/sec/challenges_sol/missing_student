@@ -1,0 +1,23 @@
+## Challenge Identification
+
+missing_student
+
+## Hypothesis
+
+Via je eigen map kan je bij de map /etc/passwd komen. M.b.v see /etc/passwd
+daar is een gehashde versie van het wachtwoord te vinden. Te zien is dat het
+een MD5 hash is en deze kan je brute forcen. Met een gedownload perl script
+(http://www.securiteam.com/tools/5OP0F0UKKG.html) was het mogelijk om het MD5
+gehashde wachtwoord fdb0972fb0a4a749327b9d8139069068 te decrypten naar ZE/Z
+
+## Token
+
+U2FsdGVkX18ikV8lEuuB6bpaOBViTNv44gFKBJgW9DBi6Pl3XDTeIsq/9+EJEWks
+Vvhjn/lXX3ZE+MWoGYEddwTnY6kje3CblJUEi92arlgrN2Ia2lGAfoDSIfhKyS+6
+
+## Proposed fix
+
+Door een moeilijker wachtwoord te gebruiken (langer hoofd en kleine letters
+door elkaar) is een wachtwoord moeilijker te bruteforcen. Ook kan een andere
+hash bijv SHA-512 gebruikt worden. Of kan er gebruikt gemaakt worden van een
+salt.

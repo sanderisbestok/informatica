@@ -1,0 +1,24 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[dutch]{babel}
+\usepackage[style=authoryear-comp, backend=bibtex]{biblatex}		%Andere steilen zijn numeric, alphabetic, of draft om de citation keys te checken
+\addbibresource{virtualisatie}							%Naam van het .bib bestand met bibliografische informatie
+\usepackage{hyperref}								%Maakt klikbare hyperlinks van de DOI's en URL's
+
+\begin{document}
+%----------------------------------------------------------------------------------------
+%	DOCUMENT - voeg de drie bronnen toe
+%----------------------------------------------------------------------------------------
+\section*{Introductie}
+(...)
+
+Naast het voordeel dat verschillende programma's volledig ge\"isoleerd van elkaar op \'e\'en computer kunnen draaien %Verwijzing naar het boek van Besturingssystemen  
+, heeft virtualisatie nadelen. Zo zijn er overheadkosten waardoor de prestatie minder is dan van een zelfstandige computer. Bovendien kan een probleem met de hardware ervoor zorgen dat de gehele virtuele machine opnieuw opgestart moet worden .%Verwijzing naar Sahoo et al 2010 
+Ook is niet alle systeem architectuur ontwikkeld om gevirtualiseerd te worden . %Verwijzing naar Rose 2004 
+
+%Tip: gebruik \parencite in plaats van \cite bij authoryear om haakjes rondom de referentie te krijgen - veel beter voor de leesbaarheid.
+
+%----------------------------------------------------------------------------------------
+%	REFERENTIES
+%----------------------------------------------------------------------------------------
+\											%Voeg hier één commando toe om automatisch de referentielijst met kop te maken.
+\end{document}

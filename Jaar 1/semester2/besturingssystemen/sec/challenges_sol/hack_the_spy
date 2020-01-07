@@ -1,0 +1,21 @@
+## Challenge Identification
+
+hack_the_spy
+
+## Hypothesis
+
+Blijkbaar is het mogelijk om via de supercomputer op andere accounts te komen.
+De vulnerability class kon ik uiteraard niet meteen raden dus daarvoor heb
+ik de bestanden op de server bekeken. Hierbij was al snel te zien dat de
+beveiliging van see, geen rekening hield met input als . .. / In de code
+is te zien dat er gebruik gemaakt wordt van strcmp dus alleen als het pad
+precies het zelfde is zal er een error verschijnen.
+
+## Token
+
+U2FsdGVkX1+/U67w8IxqbzmiJuXUaQqVYeOLpymSZUbIaaG6E/JkudSdmquQxZdd
+
+## Proposed fix
+
+Door in de code van see ./../ etc uit te sluiten kan er niet meer naar dit path
+geseed worden.

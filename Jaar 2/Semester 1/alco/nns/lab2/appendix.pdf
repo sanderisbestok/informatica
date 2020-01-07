@@ -1,0 +1,332 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<< /F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 6 0 R >>
+endobj
+2 0 obj
+<< /BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font >>
+endobj
+3 0 obj
+<< /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font >>
+endobj
+4 0 obj
+<< /BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font >>
+endobj
+5 0 obj
+<< /A << /S /URI /Type /Action /URI (https://docs.python.org/2/library/socket.html#socket.socket) >> /Border [ 0 0 0 ] /Rect [ 89.02291 626.0236 348.0229 638.0236 ] /Subtype /Link /Type /Annot >>
+endobj
+6 0 obj
+<< /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font >>
+endobj
+7 0 obj
+<< /Annots [ 5 0 R ] /Contents 12 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 11 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 
+  /Trans <<  >> /Type /Page >>
+endobj
+8 0 obj
+<< /Contents 13 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 11 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
+endobj
+9 0 obj
+<< /Outlines 14 0 R /PageLabels 15 0 R /PageMode /UseNone /Pages 11 0 R /Type /Catalog >>
+endobj
+10 0 obj
+<< /Author () /CreationDate (D:20160904160013-01'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20160904160013-01'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (Appendix) /Trapped /False >>
+endobj
+11 0 obj
+<< /Count 2 /Kids [ 7 0 R 8 0 R ] /Type /Pages >>
+endobj
+12 0 obj
+<< /Length 7973 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 189.3849 0 Td (Appendix) Tj T* -189.3849 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 659.0236 cm
+q
+BT 1 0 0 1 0 62 Tm .674985 Tw 12 TL /F1 10 Tf 0 0 0 rg (This appendix is designed to give you a quick introduction to socket programming in Python. First things) Tj T* 0 Tw .875777 Tw (first, you should prepare a socket for your program to listen on. Indeed, if you don't have a socket, how) Tj T* 0 Tw .455988 Tw (will you be able to hear the client? If you have never worked with sockets before, this might sound a little) Tj T* 0 Tw 1.225777 Tw (daunting but don't fret. You will need to go through four steps to set up your first listening socket. You) Tj T* 0 Tw .947882 Tw (would be wise to not just blindly follow these instructions but to do your best to understand why we are) Tj T* 0 Tw (doing this.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 653.0236 cm
+Q
+q
+1 0 0 1 62.69291 653.0236 cm
+Q
+q
+1 0 0 1 62.69291 617.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (1.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 26 Tm 12.58271 Tw 12 TL /F1 10 Tf 0 0 0 rg (Actually create the socket. You can use the socket constructor for this) Tj T* 0 Tw 1.174961 Tw (\() Tj 0 0 .501961 rg (https://docs.python.org/2/library/socket.html#socket.socket) Tj 0 0 0 rg (\). The default settings \(to use ) Tj /F3 10 Tf 0 0 0 rg (AF_INET) Tj T* 0 Tw /F1 10 Tf 0 0 0 rg (and ) Tj /F3 10 Tf 0 0 0 rg (SOCK_STREAM) Tj /F1 10 Tf 0 0 0 rg (\) should be fine.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 611.0236 cm
+Q
+q
+1 0 0 1 62.69291 563.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 33 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (2.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 38 Tm .626235 Tw 12 TL /F1 10 Tf 0 0 0 rg (This step is optional but recommended. By default, you can run into an annoying error with sockets) Tj T* 0 Tw 1.42436 Tw (already being in use when you repeatedly start your program for test purposes. You can use the) Tj T* 0 Tw 1.471318 Tw /F3 10 Tf 0 0 0 rg (setsockopt ) Tj /F1 10 Tf 0 0 0 rg (method to remedy this. You should set the ) Tj /F3 10 Tf 0 0 0 rg (SO_REUSEADDR ) Tj /F1 10 Tf 0 0 0 rg (to 1 to make sure the) Tj T* 0 Tw (local address can be reused.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 557.0236 cm
+Q
+q
+1 0 0 1 62.69291 509.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 33 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (3.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 38 Tm 1.17332 Tw 12 TL /F1 10 Tf 0 0 0 rg (The socket has to be bound to a specific address and port. This is done using the ) Tj /F3 10 Tf 0 0 0 rg (bind ) Tj /F1 10 Tf 0 0 0 rg (method) Tj T* 0 Tw .999488 Tw (which takes a tuple consisting of the name of the host and the port. For now, you can just set the) Tj T* 0 Tw .176235 Tw (host to ) Tj /F3 10 Tf 0 0 0 rg (localhost ) Tj /F1 10 Tf 0 0 0 rg (and select your favourite number as the port. Usually, HTTP uses port 80, 8080) Tj T* 0 Tw (or 8081.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 503.0236 cm
+Q
+q
+1 0 0 1 62.69291 467.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (4.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 26 Tm .869318 Tw 12 TL /F1 10 Tf 0 0 0 rg (Lastly, you should set the socket to listen using the cleverly named ) Tj /F3 10 Tf 0 0 0 rg (listen ) Tj /F1 10 Tf 0 0 0 rg (method. This method) Tj T* 0 Tw .73104 Tw (normally takes an integer to determine how big the backlog should be, but you can set this to 0 for) Tj T* 0 Tw (now.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 467.0236 cm
+Q
+q
+1 0 0 1 62.69291 425.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 2.497984 Tw (To better understand how sockets work in Python, you can try the following experiment. Open two) Tj T* 0 Tw 2.02811 Tw (terminals and open a Python interpreter in one of them. Then create a socket using the instructions) Tj T* 0 Tw (above. Remember the host and port you bind it to! Then, type the following into your Python interpreter:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 391.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (>) Tj (>) Tj (>) Tj ( c, _ = socket_name.accept\(\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 335.8236 cm
+q
+BT 1 0 0 1 0 38 Tm .829988 Tw 12 TL /F1 10 Tf 0 0 0 rg (As you see, this blocks. That is to say, the execution of the program does not continue. Can you image) Tj T* 0 Tw 1.066235 Tw (why? If you thought ") Tj /F4 10 Tf (gee, I guess that's because there's no incoming connections) Tj /F1 10 Tf (", you would be right.) Tj T* 0 Tw 3.253828 Tw (Remember that second terminal window we opened? Remember the ) Tj /F3 10 Tf 0 0 0 rg (nc ) Tj /F1 10 Tf 0 0 0 rg (command from the first) Tj T* 0 Tw (assignment? Let's use that to create an incoming connection for our lonely socket.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 302.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg ($ nc localhost ) Tj (<) Tj (your_port) Tj (>) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 234.6236 cm
+q
+BT 1 0 0 1 0 50 Tm .111751 Tw 12 TL /F1 10 Tf 0 0 0 rg (At this point, you should see a prompt appear in your Python interpreter almost instantly. What this means) Tj T* 0 Tw .918988 Tw (is that it has received a connection and stored it in ) Tj /F3 10 Tf 0 0 0 rg (c) Tj /F1 10 Tf 0 0 0 rg (. This is simply a new socket object. The ) Tj /F3 10 Tf 0 0 0 rg (accept) Tj T* 0 Tw .942488 Tw /F1 10 Tf 0 0 0 rg (method also returns the address on the other end, but we don't need that right now so we discard it by) Tj T* 0 Tw .787608 Tw (putting it in the ) Tj /F3 10 Tf 0 0 0 rg (_ ) Tj /F1 10 Tf 0 0 0 rg (variable. For the uninitiated, that is the preferred way to treat data you do not want in) Tj T* 0 Tw (Python.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 180.6236 cm
+q
+BT 1 0 0 1 0 38 Tm 1.044535 Tw 12 TL /F1 10 Tf 0 0 0 rg (You might be wondering what to do now. Well, the point of a socket is to be able to get data from one) Tj T* 0 Tw 1.764724 Tw (point to another over a network. So let's try that. The socket that was accepted and stored in the ) Tj /F3 10 Tf 0 0 0 rg (c) Tj T* 0 Tw 2.099985 Tw /F1 10 Tf 0 0 0 rg (variable features the ) Tj /F3 10 Tf 0 0 0 rg (recv ) Tj /F1 10 Tf 0 0 0 rg (method which is short for ) Tj /F3 10 Tf 0 0 0 rg (receive) Tj /F1 10 Tf 0 0 0 rg (. Let's call it \(with the argument that) Tj T* 0 Tw (represents a number of bytes to receive\) and see what happens.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 147.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (>) Tj (>) Tj (>) Tj ( c.recv\(512\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 91.42362 cm
+q
+BT 1 0 0 1 0 38 Tm .094488 Tw 12 TL /F1 10 Tf 0 0 0 rg (You should see it block again. This is because there is nothing in the socket which we can retrieve. To put) Tj T* 0 Tw .23332 Tw (something there, let's go back to the ) Tj /F3 10 Tf 0 0 0 rg (nc ) Tj /F1 10 Tf 0 0 0 rg (terminal we had open and type something. Anything will do. Just) Tj T* 0 Tw .907209 Tw (make sure it ends with a newline. You should see the Python interpreter unblock and spit out the string) Tj T* 0 Tw (that you just entered into ) Tj /F3 10 Tf 0 0 0 rg (nc) Tj /F1 10 Tf 0 0 0 rg (. Well done! You have created your first Python socket and sent data over it.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+13 0 obj
+<< /Length 2572 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 729.0236 cm
+q
+BT 1 0 0 1 0 26 Tm .862765 Tw 12 TL /F1 10 Tf 0 0 0 rg (Now, what happens if we send data to the socket without having our Python script wait for data? That's) Tj T* 0 Tw .43881 Tw (not a problem. Try it for yourself, enter some data without having the ) Tj /F3 10 Tf 0 0 0 rg (recv ) Tj /F1 10 Tf 0 0 0 rg (method running. Then, when) Tj T* 0 Tw (you're done, execute the ) Tj /F3 10 Tf 0 0 0 rg (recv ) Tj /F1 10 Tf 0 0 0 rg (method like we did before. What do you see?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 663.0236 cm
+q
+BT 1 0 0 1 0 50 Tm .395703 Tw 12 TL /F1 10 Tf 0 0 0 rg (Let's say that we would now like to send some data back to the user. This could be some text, an image,) Tj T* 0 Tw 1.423876 Tw (a complete HTTP response or a few seconds of ABBA's 1980 hit ) Tj /F4 10 Tf ('Happy new year') Tj /F1 10 Tf (. For this, you can) Tj T* 0 Tw .551163 Tw (simply use the ) Tj /F3 10 Tf 0 0 0 rg (send ) Tj /F1 10 Tf 0 0 0 rg (method of the socket. Remember that when we called the ) Tj /F3 10 Tf 0 0 0 rg (accept ) Tj /F1 10 Tf 0 0 0 rg (method on the) Tj T* 0 Tw 2.342485 Tw (listening socket, that created a new socket which links both sides. Try the following in your Python) Tj T* 0 Tw (interpreter and see what happens in the ) Tj /F3 10 Tf 0 0 0 rg (nc ) Tj /F1 10 Tf 0 0 0 rg (instance:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 629.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (>) Tj (>) Tj (>) Tj ( c.send\("Hey there!"\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 561.8236 cm
+q
+BT 1 0 0 1 0 50 Tm .324989 Tw 12 TL /F1 10 Tf 0 0 0 rg (Not bad, right? As you can see, it's quite easy to both send and receive data when you get the hang of it.) Tj T* 0 Tw 1.268935 Tw (If we just want to send data without listening for connections on a certain port, we can use largely the) Tj T* 0 Tw .681751 Tw (same process we used to set up out listening socket except for the ) Tj /F3 10 Tf 0 0 0 rg (bind ) Tj /F1 10 Tf 0 0 0 rg (and ) Tj /F3 10 Tf 0 0 0 rg (listen ) Tj /F1 10 Tf 0 0 0 rg (methods, which) Tj T* 0 Tw .288409 Tw (are replaced by a single ) Tj /F3 10 Tf 0 0 0 rg (connect ) Tj /F1 10 Tf 0 0 0 rg (method. This takes a tuple of host and port, just like ) Tj /F3 10 Tf 0 0 0 rg (bind) Tj /F1 10 Tf 0 0 0 rg (. Apart from) Tj T* 0 Tw (that, such a socket is functionally identical to what we have done here.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+14 0 obj
+<< /Count 0 /Type /Outlines >>
+endobj
+15 0 obj
+<< /Nums [ 0 16 0 R 1 17 0 R ] >>
+endobj
+16 0 obj
+<< /S /D /St 1 >>
+endobj
+17 0 obj
+<< /S /D /St 2 >>
+endobj
+xref
+0 18
+0000000000 65535 f
+0000000075 00000 n
+0000000139 00000 n
+0000000249 00000 n
+0000000364 00000 n
+0000000472 00000 n
+0000000686 00000 n
+0000000804 00000 n
+0000001031 00000 n
+0000001240 00000 n
+0000001348 00000 n
+0000001618 00000 n
+0000001687 00000 n
+0000009717 00000 n
+0000012346 00000 n
+0000012396 00000 n
+0000012449 00000 n
+0000012486 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com)
+ [(\345\364z\002\342va\033\336\2438\376\256\342\006a) (\345\364z\002\342va\033\336\2438\376\256\342\006a)]
+ /Info 10 0 R /Root 9 0 R /Size 18 >>
+startxref
+12523
+%%EOF

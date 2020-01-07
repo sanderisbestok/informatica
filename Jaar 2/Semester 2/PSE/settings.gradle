@@ -1,0 +1,4 @@
+rootProject.name = 'CBook'
+
+include 'front_end'
+include 'back_end'

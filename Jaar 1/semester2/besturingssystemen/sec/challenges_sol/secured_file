@@ -1,0 +1,46 @@
+## Challenge Identification
+
+secured_file
+
+## Hypothesis
+
+In main.c is te zien dat er gebruik wordt gemaakt van een char array.
+Deze array kan overflowen. Als we deze overflow het adres van de
+secretfunction, die cat uitvoerd op de flag.txt, laten zijn. Kunnen
+we wellicht naar de functie jumpen zonder aan de eigenlijke voorwaarde
+om naar deze functie te jumpen te voldoen.
+
+Na met gdb het adress te hebben opgehaald van de secret function. Deze
+vervolgens met een echo in een tmp file gezet te hebben (scheelt werk).
+De echo zag er als volgt uit (echo -ne '\xad\x85\x04\x08'). En vervolgens
+dit bestand pipen naar de ./main, (de echo staat een aantal keer in het
+bestand) kregen we de token doordat we blijkbaar naar de secret_function
+zijn gesporngen.
+
+
+## Token
+
+e8b956b328012d02704f13e6ecb922d5
+
+## Proposed fix
+
+Om dit te fixen moeten we controleren of the array niet out of bounds gaat,
+deze techniek heet bounds checking. (In de meeste talen wordt dit automatisch
+gedaan, in C is dit echter niet het geval) Het meest simpel om dit te doen
+is door in plaats van scanf(), fgets() te gebruiken.
+
+Door een extra functie getinput(char *buffer) toe te voegen en deze op de plek
+waar input moet worden ingelezen aan te roepen. Is het probleem in principe
+opgelost. Echter weten we niet hoelang het wachtwoord is (misschien is dit wel
+precies 20 karakters lang.) Daarom hebben we de buffer verhoogd naar 21, en 
+leest fgets 21 - 1 karkaters in.
+
+void getinput(char *buffer)
+{
+    fgets(buffer, 21, stdin);
+}
+
+en deze wordt tweemaal aangeroepen (in password en in name)
+
+    char buffer[21];
+    getinput(buffer);

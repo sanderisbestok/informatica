@@ -1,0 +1,100 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LATEX-TEMPLATE TECHNISCH RAPPORT
+%-------------------------------------------------------------------------------
+% Voor informatie over het technisch rapport, zie
+% http://practicumav.nl/onderzoeken/rapport.html
+% Voor readme en meest recente versie van het template, zie
+% https://gitlab-fnwi.uva.nl/informatica/LaTeX-template.git
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-------------------------------------------------------------------------------
+%	PACKAGES EN DOCUMENT CONFIGURATIE
+%-------------------------------------------------------------------------------
+
+\documentclass{uva-inf-article}
+\usepackage[dutch]{babel}
+
+% Relevant voor refereren vanaf blok 5
+%\usepackage[style=authoryear-comp]{biblatex}
+%\addbibresource{bib}
+
+%-------------------------------------------------------------------------------
+%	GEGEVENS VOOR IN DE TITEL
+%-------------------------------------------------------------------------------
+
+% Vul de naam van de opdracht in.
+\assignment{ }
+% Vul het soort opdracht in.
+\assignmenttype{Rapport}
+% Vul de titel van de eindopdracht in.
+\title{Individueel verslag}
+
+% Vul de volledige namen van alle auteurs in.
+\authors{Kevin Kuurman}
+% Vul de corresponderende UvAnetID's in.
+\uvanetids{11011017}
+
+% Vul altijd de naam in van diegene die het nakijkt, tutor of docent.
+\tutor{Anthony 'Toto' van Inge}
+% Vul eventueel ook de naam van de docent of vakcoordinator toe.
+\docent{}
+% Vul hier de naam van de PAV-groep  in.
+\group{A2}
+% Vul de naam van de cursus in.
+\course{Multimedia}
+% Te vinden op onder andere Datanose.
+\courseid{}
+
+% Dit is de datum die op het document komt te staan. Standaard is dat vandaag.
+\date{\today}
+
+%-------------------------------------------------------------------------------
+%	VOORPAGINA
+%-------------------------------------------------------------------------------
+
+\begin{document}
+\maketitle
+
+%-------------------------------------------------------------------------------
+%	INHOUDSOPGAVE EN ABSTRACT
+%-------------------------------------------------------------------------------
+
+% Niet doen bij korte verslagen en rapporten
+%\tableofcontents
+%\begin{abstract}
+%\lipsum[13]
+%\end{abstract}
+
+%-------------------------------------------------------------------------------
+%	INTRODUCTIE
+%-------------------------------------------------------------------------------
+
+\section{Persoonlijke bijdrage}
+Mijn verantwoordelijkheid was het maken van het implementeren van het spel. Het
+gedeelte wat hier het meest uitdagend aan was, was het zorgen dat de twee toestellen
+het spel tegelijkertijd goed weergeven.
+\\Het idee was eerst om beide toestellen net zo lang te laten flitsen tot ze elkaar
+herkende, dit bleek echter vrij omslachtig en in de praktijk werkte het net zo goed
+wanneer we de host simpelweg te laten wachten totdat de client flitst, en dan beide
+games te latne starten.
+\\Om ervoor te zorgen dat de game up to date blijft versturen we elke keer een flits
+wanneer er op het scherm gedrukt wordt. Dit doen we wel maar maximaal een keer in
+de twee frames om te voorkomen dat twee flitsen als \'{e}\'{e}n gezien worden.
+\\Om de game smooth te laten verlopen hebben we de framerate verlaagd, op deze
+manier worden flitsen ook beter gedetecteerd.
+\\\\Uiteindelijk ben ik ook samen met Lars aan de slag gegaan om te zorgen dat de
+flitsen werden herkent. Hij liep hier bij vast en door een aantal grote aanpassingen
+te maken lukte dit wel. Eerst had ik een eigen algoritme geschreven om binnen
+RenderScript te kijken of het gedetecteerde licht een cirkel was. Uiteindelijk hebben
+we ervoor gekozen om dit met een functie van OpenCV te doen omdat het eigen bedachte
+algoritme niet werkte.
+
+
+%-------------------------------------------------------------------------------
+%	BIJLAGEN EN EINDE
+%-------------------------------------------------------------------------------
+
+%\section{Bijlage A}
+%\section{Bijlage B}
+%\section{Bijlage C}
+\end{document}

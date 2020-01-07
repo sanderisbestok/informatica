@@ -1,0 +1,15 @@
+# Naam en studenten nummer hier
+
+@include "Mips.wasm"
+
+.data MyRegisters : REGISTERS
+0x00 : WORD 0x00 # put $0 to zero (default assumption)
+
+.data MyMemory : DATAMEM 
+0x00 : WORD x 0
+
+.code MyCode: MIPS, MyMemory
+
+# uw code hier
+start:
+    NOP

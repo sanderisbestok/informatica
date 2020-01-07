@@ -1,0 +1,13 @@
+################################################################################
+###		floppy_drive
+################################################################################
+###		Level: 			3
+###		Fix level:		1
+################################################################################
+
+	OBJ:
+		Recover the contents of the txt file on the floppy
+	ACCESS:
+		https://csa.science.uva.nl/bs2016/floppy.img
+	UPDATE 1:
+		We suspect the are using git.

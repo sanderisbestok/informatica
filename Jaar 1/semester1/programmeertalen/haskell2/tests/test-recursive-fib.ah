@@ -1,0 +1,27 @@
+LISTEN TO ME VERY CAREFULLY main
+	YOU SET US UP a 0
+	DO IT NOW fib 11 :: a
+
+	IT'S SHOW TIME a
+
+
+LISTEN TO ME VERY CAREFULLY fib n
+	GET DOWN isone n 1
+	I LIED isone isone
+
+	I LIED iszero n
+	
+	BECAUSE I'M GOING TO SAY PLEASE iszero
+		HASTA LA VISTA, BABY 0	
+	BECAUSE I'M GOING TO SAY PLEASE isone
+		HASTA LA VISTA, BABY 1
+
+	GET DOWN argl n 1
+	GET DOWN argr n 2
+
+	DO IT NOW fib argl :: left
+	DO IT NOW fib argr :: right
+
+	GET UP result left right
+
+	HASTA LA VISTA, BABY result

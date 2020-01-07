@@ -1,0 +1,108 @@
+% LATEX-TEMPLATE TECHNISCH RAPPORT
+%-------------------------------------------------------------------------------
+% Voor informatie over het technisch rapport, zie
+% http://practicumav.nl/onderzoeken/rapport.html
+% Voor readme en meest recente versie van het template, zie
+% https://gitlab-fnwi.uva.nl/informatica/LaTeX-template.git
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-------------------------------------------------------------------------------
+%	PACKAGES EN DOCUMENT CONFIGURATIE
+%-------------------------------------------------------------------------------
+
+\documentclass{uva-inf-article}
+\usepackage[dutch]{babel}
+
+% Relevant voor refereren vanaf blok 5
+%\usepackage[style=authoryear-comp]{biblatex}
+%\addbibresource{bib}
+
+%-------------------------------------------------------------------------------
+%	GEGEVENS VOOR IN DE TITEL
+%-------------------------------------------------------------------------------
+
+% Vul de naam van de opdracht in.
+\assignment{Multimedia}
+% Vul het soort opdracht in.
+\assignmenttype{Rapport}
+% Vul de titel van de eindopdracht in.
+\title{Individueel verslag}
+
+% Vul de volledige namen van alle auteurs in.
+\authors{Sander Hansen}
+% Vul de corresponderende UvAnetID's in.
+\uvanetids{10995080}
+
+% Vul altijd de naam in van diegene die het nakijkt, tutor of docent.
+%\tutor{Naam van de tutor}
+% Vul eventueel ook de naam van de docent of vakcoordinator toe.
+%\docent{}
+% Vul hier de naam van de PAV-groep  in.
+%\group{Naam van de groep}
+% Vul de naam van de cursus in.
+%\course{Naam van de (gekoppelde) cursus}
+% Te vinden op onder andere Datanose.
+\courseid{}
+
+% Dit is de datum die op het document komt te staan. Standaard is dat vandaag.
+\date{\today}
+
+%-------------------------------------------------------------------------------
+%	VOORPAGINA
+%-------------------------------------------------------------------------------
+
+\begin{document}
+\maketitle
+
+%-------------------------------------------------------------------------------
+%	INHOUDSOPGAVE EN ABSTRACT
+%-------------------------------------------------------------------------------
+
+% Niet doen bij korte verslagen en rapporten
+%\tableofcontents
+%\begin{abstract}
+%\lipsum[13]
+%\end{abstract}
+
+%-------------------------------------------------------------------------------
+%	INTRODUCTIE
+%-------------------------------------------------------------------------------
+
+\section{Inleiding}
+Tijdens het laatste project van het eerstejaar informatica was de opdracht om
+een android applicatie te maken die gebruik maakt van multimedia. Onze groep heeft er
+voor gekozen om een \textit{multiplayer} spel te maken. Waarbij de twee toestellen
+die tegen elkaar spelen met elkaar communiceren via de flits van hun camera.
+
+\section{Persoonlijke bijdrage}
+In principe was ik verantwoordelijk voor de media die in onze app gebruikt wordt.
+Hierbij kan gedacht worden aan de afbeeldingen en muziek. Een van deze media onderdelen
+was de achtergrond van het spel. De achtergrond moest een achtergrond zijn waarbij
+het voor de speler lijkt alsof deze daadwerkelijk door het spel vliegt. Daarom is
+er gekozen voor een brede achtergrond waarvan het einde op het begin aansluit.
+Op deze manier kan het spel eindeloos gespeeld worden terwijl de achtergrond
+beweegt en telkens weer op zichzelf aansluit.
+\\\\Deze taak was echter vrij snel volbracht. Daarom was ik samen met Dennis ook
+verantwoordelijk voor de beginpagina.
+Toen we begonnen met het programmeren van de beginpagina maakten we alle losse
+onderdelen telkens opnieuw aan, waarbij we ook de stijl elke keer moesten defini\"{e}ren.
+Voor sommige van deze onderdelen was dit niet praktisch, gezien de stijl van bijvoorbeeld
+de knoppen toch gelijk moest zijn. Daarom hebben we besloten om deze in de \textit{XML} bestanden
+te verwerken. Dit maakte de code niet alleen overzichtelijker maar dit maakte het
+ook makkelijker om alle knoppen in een keer aan te passen.
+\\\\Ook zijn er een aantal beslissingen genomen waar we niet allemaal direct aan hebben
+meegecodeerd maar wel aan hebben meegedacht. Zo wordt er gebruik gemaakt van
+RenderScript, een \textit{framework} dat een taak over alle beschikbare processoren
+verdeeld. Bij het afronden van het project kwamen we er ook achter dat het algoritme
+dat bedacht was om te berekenen of er een cirkel aanwezig was, niet goed werkte.
+Daarom hebben we besloten dit stuk code uit het RenderScript gedeelte te halen en
+te vervangen door een functie van OpenCV. Dit was in het begin erg traag, maar relatief
+eenvoudig op te lossen door de resolutie van de camera wat omlaag te schroeven.
+%-------------------------------------------------------------------------------
+%	BIJLAGEN EN EINDE
+%-------------------------------------------------------------------------------
+
+%\section{Bijlage A}
+%\section{Bijlage B}
+%\section{Bijlage C}
+\end{document}

@@ -1,0 +1,57 @@
+.material {
+    box-shadow: 0 0 5px -2px #000;
+    transition-property: height, width, top;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+/* HEADER */
+
+.navbar {
+    height: 100px;
+    margin: auto;
+}
+
+.navbar .form-inline {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar .form-inline .form-control {
+    border-radius: 0;
+    border: solid 1px lightgray;
+    transition: box-shadow 0.5s ease;
+}
+
+.navbar .form-inline .form-control:focus {
+    /*border: none;*/
+    box-shadow: 0 0 6px -2px gray;
+}
+
+/* TIMELINE */
+.vis-item-content {
+    font-size: 10px;
+}
+
+/* SEARCH RESULTS */
+.card {
+    width: 100%;
+    border-radius: 0;
+}
+
+.card-header .nav-link {
+    border-radius: 0;
+}
+
+.card-body {
+    text-align: left;
+}
+
+.card-body .answer-pane li {
+    padding-left: 0;
+}
+
+.badge:hover {
+    cursor:pointer;
+}

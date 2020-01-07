@@ -1,0 +1,41 @@
+################################################################################
+###		missing_student
+################################################################################
+###		Level:			4		
+###		Fix level:		4
+################################################################################
+	
+	OBJ:	
+		Access the secret token of Hoon Mook
+		If you discover a vulnerability, propose a way to fix this.
+		Fixes in source code of the provided tools are prefered.
+				
+	ACCESS:
+		ssh -p50522 login@37.187.23.81
+		password: deep-red-star
+		channel id: you will receive this separately
+
+	STARTING POINT:
+		The behavior enforcement security force has
+		apprehended the student Hoon Mook (mook_hoon),
+		suspected to sell secret information to our enemy in
+		Taiwan. Sadly, Hoon Mook has passed away before we
+		could determine whether he had access to the protected
+		information and before we could determine his access
+		password.  Your role is to log into his account and
+		determine whether the missing student really had
+		access to the professor's access token.
+		
+	UPDATE 1:
+		Since our initial report it has been determined Hoon Mook was
+		innocent. Attackers gained access to his account after reading
+		the /etc/passwd file. Determine how this is possible and provide
+		a fix. The system administrator suggested the `passwd` utility 
+		could be involved. This utility and it's source code wll be made
+		available to you within 48 hours. 
+		
+	UPDATE 2:
+		We discovered our new version of the `passwd` utility uses the 
+		outdated and unsecure MD5 algorithm. We do not know how this 
+		happened, but rest assured we will find those responsible.
+		It is now up to you to make sure the `passwd` utility is fixed. 

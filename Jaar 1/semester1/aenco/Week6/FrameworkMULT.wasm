@@ -1,0 +1,73 @@
+# Sander Hansen 10995080
+@include "Mips.wasm"
+
+.data MyRegisters : REGISTERS
+0x00 : WORD 0x00 # put $0 to zero (default assumption)
+
+.data MyMemory : DATAMEM 
+@include "matrixes.wasm"
+0x300 : WORD c 0 # you can put the result matrix starting at c
+
+.code MyCode: MIPS, MyMemory
+
+start:
+	ADDI $1, $1, 15 #zet controle op 15
+	ADD $3, $0, $0 #zet i op 0
+
+loop:
+	BEQ $1, $3, exit #kijk of i < 16 is
+	ADD $4, $0, $0 #zet j op 0
+
+loop2:
+	BEQ $1, $4, loopoptellen #kijk of j < 16 is
+
+	ADD $5, $0, $0 #zet sum op 0
+	ADD $6, $0, $0 #zet k op 0
+
+loop3:
+	BEQ $1, $6, optellen #kijk of k < 16 is
+	
+	ADD $9, $0, $0
+	SLL $9, $3, 4
+	ADD $9, $9 ,$6
+	SLL $9, $9, 2
+
+	LW $10, a, $9 #na het bepalen van offset matrix laden
+
+	ADD $9, $0, $0
+	SLL $9, $6, 4
+	ADD $9, $9 ,$4
+	SLL $9, $9, 2
+	LW $11, b, $9 #na het bepalen van offset matrix laden
+
+	NOP
+	NOP
+	MUL $7, $10, $11 
+	ADD $5, $5, $7 #tel sum op bij sum + antwoord
+
+
+	ADDI $6, $6, 1 #tel bij k 1 op
+	BEQ $0, $0, loop3 #spring terug begin van loop3
+
+optellen:
+
+	ADD $9, $0, $0
+	SLL $9, $6, 4
+	ADD $9, $9 ,$4
+	SLL $9, $9, 2
+	SW $5, c, $9
+
+	ADDI $4, $4, 1 #tel bij j 1 op
+	BEQ $0, $0, loop2 #spring terug begin loop2
+	
+loopoptellen:
+
+	ADDI $3, $3, 1 #tel bij i 1 op
+	BEQ $0, $0, loop #spring terug begin loop
+
+	
+
+
+NOP
+
+exit:

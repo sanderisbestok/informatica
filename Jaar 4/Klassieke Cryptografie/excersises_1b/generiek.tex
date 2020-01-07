@@ -1,0 +1,130 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LATEX-TEMPLATE GENERIEK
+% Voor readme en meest recente versie, zie
+% https://gitlab-fnwi.uva.nl/informatica/LaTeX-template.git
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-------------------------------------------------------------------------------
+%	PACKAGES EN DOCUMENT CONFIGURATIE
+%-------------------------------------------------------------------------------
+
+\documentclass{uva-inf-article}
+\usepackage[dutch]{babel}
+\usepackage{todonotes}
+
+%-------------------------------------------------------------------------------
+%	GEGEVENS VOOR IN DE TITEL, HEADER EN FOOTER
+%-------------------------------------------------------------------------------
+
+% Vul de naam van de opdracht in.
+\assignment{Klassieke Cryptografie}
+% Vul het soort opdracht in.
+\assignmenttype{Samenvatting}
+% Vul de titel van de eindopdracht in.
+\title{Opdrachten}
+
+% Vul de volledige namen van alle auteurs in.
+\authors{Sander Hansen}
+% Vul de corresponderende UvAnetID's in.
+\uvanetids{10995080}
+
+% Vul altijd de naam in van diegene die het nakijkt, tutor of docent.
+\tutor{}
+% Vul indien nodig de naam van de begeleider in.
+\mentor{}
+% Vul eventueel ook de naam van de docent of vakcoordinator toe.
+\docent{}
+% Vul hier de naam van de PAV-groep  in.
+\group{}
+% Vul de naam van de cursus in.
+\course{}
+% Te vinden op onder andere Datanose.
+\courseid{}
+
+% Dit is de datum die op het document komt te staan. Standaard is dat vandaag.
+\date{\today}
+
+%-------------------------------------------------------------------------------
+%	VOORPAGINA EN EVENTUEEL INHOUDSOPGAVE EN ABSTRACT
+%-------------------------------------------------------------------------------
+
+\begin{document}
+\maketitle
+%\tableofcontents
+%\begin{abstract}
+%\lipsum[13]
+%\end{abstract}
+
+%-------------------------------------------------------------------------------
+%	INHOUD
+%-------------------------------------------------------------------------------
+
+\section{Week 1}
+\subsection{Exercises 1b}
+\subsubsection{Problem 1: Caesar cipher}
+(a)\\ 
+Hello mister \\
+7 4 11 11 14 12 8 18 19 4 17 \\
+10 7 14 14 17 15 11 21 22 7 20\\
+khoor plvwhu
+
+\subsubsection{Problem 2: Alphabet creation}
+a\\
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z\\
+A L P H B E T C R I O N D F G J K M Q S U V W X Y Z\\
+
+\subsubsection{Problem 3: Decimation}
+Legacy = A B C D E F = 11 22 33 44 55 $->$ 11 22 7 18 3 = lwhsd\\
+Modern = A B C D E F = 0 11 22 33 44 $->$ 0 11 22 7 18 = alwhs\\
+
+\subsubsection{Problem 4: Extended Euclidean Algorithm}
+Voor het Extended Euclidean Algoritme maak je een tabel van vijf kolommen. De
+eerste kolom is de index, de tweede de deelsom, de derde de remainder, de vierde
+$s_{i}$ en de laatste $t_{i}$.\\\\
+Bij index 0 en 1 wordt de quotient leeggelaten, zijn de remainders de getallen
+waarmee gerekend wordt. $s_{0} = 1, t_{0} = 0, s_{1} = 0 en t_{1} = 1$.\\\\
+Vervolgens is $s_{i} = s_{i-2} - s_{i-1} * quotient_{i}$ en $t_{i} = t_{i-2} - 
+t_{i-1} * quotient_{i}$.
+
+\begin{table}
+    \centering
+    \begin{tabular}{lllll}
+    Index & Quotient & Remainder & s\_i                 & t\_i                  \\
+    0     &          & 144       & 1                    & 0                     \\
+    1     &          & 55        & 0                    & 1                     \\
+    2     & 144:55=2 & 34        & 1-2*0=1              & 0-1*2=-2              \\
+    3     & 55:34=1  & 21        & 0-1*1=-1             & 1--2*1=3              \\
+    4     & 34:21=1  & 13        & 1--1*1=2             & -2-3*1=-5             \\
+    5     & 21:13=1  & 8         & -1-2*1=-3            & 3--5*1=8              \\
+    6     & 13:8=1   & 5         & 2--3*1=5             & -5-8*1=-13            \\
+    7     & 8:5=1    & 3         & -3-5*1=-8            & 8--13*1=21            \\
+    8     & 5:3=1    & 2         & 5--8*1=13            & -13-21*1=34           \\
+    9     & 3:2=1    & 1         & -8-13*1=-\textbf{21} & 21--34*1=\textbf{55}  \\
+    10    & 2:1=2    & 0         &                      &                      
+    \end{tabular}
+\end{table}
+
+Als hier de inverse van een modulo van moet worden berekend is de laatste kolom
+overbodig. Bij bijvoorbeeld $15 mod(26)$ schrijf je alleen $s_{i}$ uit.
+
+\subsubsection{Problem 5: Playfair cipher}
+Bij de playfair cipher maak je een 5x5 matrix met een codewoord. Je maakt
+bigrammen van letters. Diagonalen worden vervangen door tegenovergestelde
+diagonalen. Op een rij kies je voor de letter direct rechts. In een kolom voor
+de letter eronder.\\
+Sander wordt dus QC OC BP
+
+\subsubsection{Problem 6: Hill cipher}
+(a)
+
+\todo{Inverse van matrix kennen?}
+
+\section{Week 2}
+\subsection{Exercises 2a}
+\subsubsection{Problem 1: A simple substitution}
+\section{Week 3}
+\section{Week 4}
+\section{Week 5}
+\section{Week 6}
+
+\end{document}

@@ -1,0 +1,40 @@
+################################################################################
+###		hack_the_spy
+################################################################################
+###		Level: 			4
+###		Fix level:		5
+################################################################################
+
+	OBJ:
+		Access the secret token of Mina Sarm.
+		If you discover a vulnerability, propose a way to fix this.
+		Fixes in source code of the provided tools are prefered.
+				
+	ACCESS:
+		ssh -p50522 login@37.187.23.81
+		password: deep-red-star
+		channel id: you will receive this separately
+
+	STARTING POINT:
+		Student Mina Sarm (sarm_mina) is also like you working
+		for the secret agency MSS. She has modified the
+		system's `see` command to protect her account better
+		than the average student. However we suspect that
+		information has been stolen from her account and thus
+		that she is not doing her job properly. You must
+		investigate and check whether indeed her access token
+		is sufficiently protected and if possible propose a
+		better approach.
+	
+	UPDATE 1:
+		Eventhough this should be impossible, our system 
+		administrator has discovered at least one occasion in 
+		which the `see` utility was used to gain access to a 
+		file in Mina Sarms account. Make it your priority to 
+		discover how this is possible and how it can be solved.
+		
+	UPDATE 2:
+		The system administrator has discovered the attacker
+		used the `see` utility with a relative path to bypass 
+		our security. Specificly, the path he used contained 
+		'./../'

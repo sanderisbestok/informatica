@@ -1,0 +1,15 @@
+################################################################################
+###		secured file
+################################################################################
+###		Level: 			8
+###		Fix level:		2
+################################################################################
+
+	OBJ:
+		Read the content of flag.txt		
+	ACCESS:
+		ssh -p50622 overflow@37.187.23.81
+		password: stacksAreMy
+	UPDATE 1:
+		We saw the application crash when the input was to large.
+		Are the buffers to small.

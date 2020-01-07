@@ -1,0 +1,34 @@
+# Sander Hansen 10995080
+
+@include "Mips.wasm"
+
+.data MyRegisters : REGISTERS
+0x00 : WORD 0x00 # put $0 to zero (default assumption)
+1 : WORD 0
+2 : WORD 0
+3 : WORD 0
+4 : WORD 0
+5 : WORD 0
+6 : WORD 0
+7 : WORD 0
+8 : WORD 0
+9 : WORD 0
+
+.data MyMemory : DATAMEM 
+0x00 : WORD x 0
+
+.code MyCode: MIPS, MyMemory
+
+# uw code hier
+
+ADDI $3, $0, 4
+ADDI $4, $0, 8
+
+SW $3, x, $2
+LW $5, x, $2
+
+NOP
+
+ADD $1, $4, $5
+
+

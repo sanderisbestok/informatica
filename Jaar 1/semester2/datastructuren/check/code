@@ -1,0 +1,237 @@
+for (int i = 0; i < BSIZE; i++) {
+    for (int j = 0; j < BSIZE; j++) {
+        pion = board[i][j];
+
+        switch(pion) {
+            case pawn_w:
+                check_w = check_pawn_w(&king_b_coord, i, j);
+                break;
+            case pawn_b:
+                check_b = check_pawn_b(&king_w_coord, i, j);
+                break;
+            case knight_w:
+                break;
+            case knight_b:
+                break;
+            case bishop_w:
+                break;
+            case bishop_b:
+                break;
+            case rook_w:
+                break;
+            case rook_b:
+                break;
+            case queen_w:
+                break;
+            case queen_b:
+                break;
+        }
+        if (check_w) {
+            printf("White king is in check \n");
+            return EXIT_SUCCESS;
+
+        } else if (check_b) {
+            printf("Black king is in check \n");
+            return EXIT_SUCCESS;
+        }
+    }
+}
+
+int check_pawn_w(struct Coord *king_b_coord, int i, int j) {
+    if ((i + 1) == (*king_b_coord).y && ((j - 1) == (*king_b_coord).x || (j + 1) == (*king_b_coord).x)) {
+        return 1;
+    } else {
+        return 0;
+    }
+}
+
+int check_pawn_b(struct Coord *king_w_coord, int i, int j) {
+    if ((i - 1) == (*king_w_coord).y && ((j - 1) == (*king_w_coord).x || (j + 1) == (*king_w_coord).x)) {
+        return 1;
+    } else {
+        return 0;
+    }
+}
+
+//TODO 1 FUNCTIE MAKEN
+
+/* Function that will check the northern direction for kings, rooks and queens
+ * will return true if one of them is found and can check the king (with the given
+ * coordinates. */
+int check_north(char board[BSIZE][BSIZE], struct Coord *king_coord, int is_white) {
+    int x = (*king_coord).x;
+    int y = (*king_coord).y;
+    int stop = 0;
+    int check = 0;
+
+    if ((is_white && (board[y-1][x] == king_b)) || (!is_white && (board[y-1][x] == king_w))) {
+        return 1;
+    }
+
+    do {
+        y = y - 1;
+        if ((is_white && (board[y][x] == rook_b || board[y][x] == queen_b))
+        || (!is_white && (board[y][x] == rook_w || board[y][x] == queen_w))) {
+            stop = 1;
+            check = 1;
+        } else if (board[y][x] != empty) {
+            stop = 1;
+        }
+    } while (!stop);
+
+    if (check) {
+        return 1;
+    } else {
+        return 0;
+    }
+}
+
+int check_east(char board[BSIZE][BSIZE], struct Coord *king_coord, int is_white) {
+    int x = (*king_coord).x;
+    int y = (*king_coord).y;
+    int stop = 0;
+    int check = 0;
+
+    if ((is_white && (board[y][x+1] == king_b)) || (!is_white && (board[y][x+1] == king_w))) {
+        return 1;
+    }
+
+    do {
+        x = x + 1;
+        if ((is_white && (board[y][x] == rook_b || board[y][x] == queen_b))
+        || (!is_white && (board[y][x] == rook_w || board[y][x] == queen_w))) {
+            stop = 1;
+            check = 1;
+        } else if (board[y][x] != empty) {
+            stop = 1;
+        }
+    } while (!stop);
+
+    if (check) {
+        return 1;
+    } else {
+        return 0;
+    }
+}
+
+/* Function that will check the northern direction for kings, rooks and queens
+ * will return true if one of them is found and can check the king (with the given
+ * coordinates. */
+int check_south(char board[BSIZE][BSIZE], struct Coord *king_coord, int is_white) {
+    int x = (*king_coord).x;
+    int y = (*king_coord).y;
+    int stop = 0;
+    int check = 0;
+
+    if ((is_white && (board[y+1][x] == king_b)) || (!is_white && (board[y+1][x] == king_w))) {
+        return 1;
+    }
+
+    do {
+        y = y + 1;
+        if ((is_white && (board[y][x] == rook_b || board[y][x] == queen_b))
+        || (!is_white && (board[y][x] == rook_w || board[y][x] == queen_w))) {
+            stop = 1;
+            check = 1;
+        } else if (board[y][x] != empty) {
+            stop = 1;
+        }
+    } while (!stop);
+
+    if (check) {
+        return 1;
+    } else {
+        return 0;
+    }
+}
+
+int check_west(char board[BSIZE][BSIZE], struct Coord *king_coord, int is_white) {
+    int x = (*king_coord).x;
+    int y = (*king_coord).y;
+    int stop = 0;
+    int check = 0;
+
+    if ((is_white && (board[y][x-1] == king_b)) || (!is_white && (board[y][x-1] == king_w))) {
+        return 1;
+    }
+
+    do {
+        x = x -1;
+        if ((is_white && (board[y][x] == rook_b || board[y][x] == queen_b))
+        || (!is_white && (board[y][x] == rook_w || board[y][x] == queen_w))) {
+            stop = 1;
+            check = 1;
+        } else if (board[y][x] != empty) {
+            stop = 1;
+        }
+    } while (!stop);
+
+    if (check) {
+        return 1;
+    } else {
+        return 0;
+    }
+}
+
+/* Function that will check in either the northern, eastern, southern and
+   western direction. If a pion (rook, king or queen) is able to hit the king,
+   this function will return as true. */
+int check_nesw(char board[BSIZE][BSIZE], struct Coord *king_coord, int is_white,
+const int direction[2]) {
+    int x = (*king_coord).x;
+    int y = (*king_coord).y;
+    int stop = 0, check = 0;
+
+    /* Keep checking until either a pion or a wall has been found. */
+    do {
+        x = x + direction[0];
+        y = y + direction[1];
+        if ((is_white && (board[y][x] == rook_b || board[y][x] == queen_b))
+        || (!is_white && (board[y][x] == rook_w || board[y][x] == queen_w))) {
+            stop = 1;
+            check = 1;
+        } else if (board[y][x] != empty || y > BSIZE || y < 0 || x > BSIZE
+        || x < 0) {
+            stop = 1;
+        }
+    } while (!stop);
+
+    return check;
+}
+
+int check_diag(char board[BSIZE][BSIZE], struct Coord *king_coord, int is_white,
+const int direction[2]) {
+    int x = (*king_coord).x;
+    int y = (*king_coord).y;
+    int stop = 0, check = 0;
+
+    /* Which calculation has to be made depends on the direction */
+
+    if (is_white && (direction == northeast || direction == northwest)
+    && (board[y+direction[1]][x+direction[0]] == pawn_b)) {
+        return 1;
+    }
+
+    if (!is_white && (direction == southeast || direction == southwest)
+    && (board[y+direction[1]][x+direction[0]] == pawn_w)) {
+        return 1;
+    }
+
+    /* Keep checking until either a pion or a wall has been found. */
+    do {
+        /* Calculate the right offset to check for the next sectoin of the
+           board.*/
+        x = x + direction[0];
+        y = y + direction[1];
+        if ((is_white && (board[y][x] == bishop_b || board[y][x] == queen_b))
+        || (!is_white && (board[y][x] == bishop_w || board[y][x] == queen_w))) {
+            stop = 1;
+            check = 1;
+        } else if (board[y][x] != empty || y > BSIZE || y < 0 || x > BSIZE
+        || x < 0) {
+            stop = 1;
+        }
+    } while (!stop);
+
+    return check;
+}

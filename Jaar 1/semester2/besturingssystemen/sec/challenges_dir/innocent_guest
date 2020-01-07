@@ -1,0 +1,38 @@
+################################################################################
+###		innocent_guest
+################################################################################
+###		Level: 			5
+###		Fix level:		5
+################################################################################
+
+	OBJ:
+		Access the secret token of Bai Gun.
+		If you discover a vulnerability, propose a way to fix this.
+		Fixes in source code of the provided tools are prefered.
+
+	ACCESS:
+		ssh -p50522 login@37.187.23.81
+		password: deep-red-star
+		channel id: you will receive this separately
+
+	STARTING POINT:
+		A new wave of attacks on our system has originated from the account of
+		the renowned Agriculture and Life Sciences professor Bai Gun (bai_gun).
+		Even after some delicate persuasion, Bai Gun claims he is not involved.
+		We would normally ignore this claim, however, the attacks continued even
+		during our discussion with Bai Gun. Since he was physically and mentally
+		unable to operate a computer at that time, we want you to investigate.
+		
+		Find out if there is an unknown vulnerability allowing access to 
+		the account of professor Bai Gun. If there is, submit a fix for this
+		vulnerability. 
+		
+		Our system administrator noticed some unexpected guest accounts on our 
+		system. While this might be unrelated, we have arranged for access to 
+		the 'addguest' tool which creates these accounts. 
+		
+	UPDATE 1:
+		Our system administrator now stronly suspects the `addguest` tool was
+		involved, as it was run more than 20 times just prior to the start of
+		the new attacks. Find out how the `addguest` tool was used, and 
+		propose a fix!

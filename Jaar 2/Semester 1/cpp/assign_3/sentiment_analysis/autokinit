@@ -1,0 +1,7 @@
+#!/usr/bin/expect
+
+set pass "lH6EJtEk"
+
+spawn kinit cpp1602@CUA.SURFSARA.NL
+expect "Password for cpp1602@CUA.SURFSARA.NL: "
+send "$pass"

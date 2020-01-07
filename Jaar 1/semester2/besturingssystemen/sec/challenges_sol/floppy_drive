@@ -1,0 +1,17 @@
+## Challenge Identification
+
+floppy_drive
+
+## Hypothesis
+
+Floppy image can be restored with testdisk, inspect files to find token
+
+## Token
+
+60ad86c61d0c9f86f36917d5497ef85e
+
+## Proposed fix
+
+Testdisk restored file.txt and _IT~ directory. This is a corrupted git repo.
+file.txt is corrupted. Rename directory to .git and some files with _'s in the filename.
+This restores git repo. Hard reset repo to recover file.txt with solution token

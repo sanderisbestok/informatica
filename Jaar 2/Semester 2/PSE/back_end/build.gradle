@@ -1,0 +1,65 @@
+
+buildscript {
+  ext.kotlin_version = '1.1.2'
+  ext.ktor_version = '0.3.3'
+
+  repositories {
+    mavenCentral()
+  }
+
+  dependencies {
+    classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+  }
+}
+
+apply plugin: 'kotlin'
+apply plugin: 'application'
+
+mainClassName = 'server.MainKt'
+sourceSets.main.resources.srcDir "../front_end/dist"
+
+defaultTasks 'run'
+
+repositories {
+  mavenCentral()
+  jcenter()
+  maven { url "https://dl.bintray.com/kotlin/kotlinx" }
+  maven { url  "http://dl.bintray.com/kotlin/ktor" }
+  maven { url 'http://dl.bintray.com/jetbrains/markdown' }
+}
+
+dependencies {
+  compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
+
+  compile "org.jetbrains.ktor:ktor-netty:$ktor_version"
+  compile "org.jetbrains.ktor:ktor-websockets:$ktor_version"
+
+  compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.+'
+  compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.+'
+
+  compile 'com.beust:klaxon:0.30'
+
+  compile "org.jetbrains:markdown:0.1.23"
+
+  compile group: 'io.github.lukehutch', name: 'fast-classpath-scanner', version: '2.+'
+
+  testCompile 'junit:junit:4.11'
+  testCompile "org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version"
+}
+
+task wrapper(type: Wrapper) {
+  gradleVersion = "2.7"
+}
+
+jar {
+  baseName "cbook-backend"
+  manifest {
+    attributes 'Main-Class': 'server.MainKt'
+  }
+}
+
+kotlin {
+    experimental {
+        coroutines "enable"
+    }
+}

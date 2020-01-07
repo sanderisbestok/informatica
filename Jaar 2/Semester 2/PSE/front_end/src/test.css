@@ -1,0 +1,3 @@
+#hello-css::after {
+    content: 'Hello from CSS';
+}

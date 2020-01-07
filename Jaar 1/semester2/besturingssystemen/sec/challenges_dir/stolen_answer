@@ -1,0 +1,33 @@
+################################################################################
+###		stolen_answer
+################################################################################
+###		Level: 			3
+###		Fix level:		N/A
+################################################################################
+
+	OBJ:
+		Access the secret token of Chahng Kwang.
+
+	ACCESS:
+		ssh -p50522 login@37.187.23.81
+		password: deep-red-star
+		channel id: you will receive this separately
+
+	STARTING POINT:
+	    Students and lecturers of The National University of
+		The Democratic People's Republic of Korea have access
+		to our supercomputing server platform because our
+		enlightened leader wishes to give students every
+		chance to become the most expert in supercomputing
+		internationally. Faculty members noticed a student was
+		in the possession of an access token which must have
+		been stolen from the account of Juche professor Chahng
+		Kwang (chahng_k).  Due to swift and decisive action of
+		our behavior enforcement security forces, the student
+		is unfortunately unavailable for questioning. You must
+		determine which vulnerability made this leak possible.
+
+	UPDATE 1:
+		Althought we are unable to `cd` to the /home/chahng_k/ directory, it
+		seems there is a way to read the TOKEN file anyway. Find out how this
+		is done!

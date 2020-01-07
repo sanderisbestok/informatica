@@ -1,0 +1,12 @@
+*.o
+libsys.a
+libmm.a
+test
+test-dumb
+*~
+*.out
+*.aux
+*.log
+*.ltx
+libmm-dumb.a
+myalloc.tar.gz

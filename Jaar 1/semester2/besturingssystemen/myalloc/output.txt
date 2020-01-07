@@ -1,0 +1,3 @@
+smalltrace.t:9: allocation failed (20993 bytes)
+Detected invalid write to deactivated bank 41 in module 0!
+Found consistency error, aborting simulation.

@@ -1,0 +1,44 @@
+eval $($HD_HOME/bin/env.sh)
+
+if [ $(dpkg-query -W -f='${Status}' nano 2>/dev/null | grep -c "ok installed") -eq 0 ];
+then
+  echo "Installing expect"
+  sudo apt-get install -y expect;
+fi
+
+./autokinit &> /dev/null
+
+alias hdrm='hdfs dfs -rm -r'
+
+function hdpull() {
+  rm -r $1
+  hdfs dfs -copyToLocal $1
+}
+
+function hdpush() {
+  hdrm $1
+  hdfs dfs -copyFromLocal $1
+}
+
+function localrun() {
+  if [[ -z $1 ]] then
+    infile='tweets2009-06-brg1of2.txt'
+  else
+    infile=$1
+  fi
+  mvn java:exec -Dexec.args='$infile output/ 1'
+}
+
+function hdrun() {
+  if [[ -z $2 ]] then
+    infile='tweets2009-06-brg1of2.txt'
+  else
+    infile=$2
+  fi
+  
+  hdrm output/
+  hdpush $infile
+  yarn jar target/wordcount-example-0.1-SNAPSHOT.jar nl.uva.cpp.WordCount $infile output/ $1
+  hdpull output/
+}
+

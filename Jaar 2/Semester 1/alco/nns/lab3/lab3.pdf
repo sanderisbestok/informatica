@@ -1,0 +1,770 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<< /F1 2 0 R /F2 3 0 R /F3 9 0 R /F4 11 0 R >>
+endobj
+2 0 obj
+<< /BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font >>
+endobj
+3 0 obj
+<< /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font >>
+endobj
+4 0 obj
+<< /A << /S /URI /Type /Action /URI (mailto:J.Wang2@uva.nl) >> /Border [ 0 0 0 ] /Rect [ 155.5029 704.7736 231.7929 716.7736 ] /Subtype /Link /Type /Annot >>
+endobj
+5 0 obj
+<< /A << /S /URI /Type /Action /URI (mailto:r.a.valkering@uva.nl) >> /Border [ 0 0 0 ] /Rect [ 151.0429 686.7736 242.3329 698.7736 ] /Subtype /Link /Type /Annot >>
+endobj
+6 0 obj
+<< /A << /S /URI /Type /Action /URI (mailto:daniel.louwrink@student.uva.nl) >> /Border [ 0 0 0 ] /Rect [ 159.9329 668.7736 298.4729 680.7736 ] /Subtype /Link /Type /Annot >>
+endobj
+7 0 obj
+<< /A << /S /URI /Type /Action /URI (mailto:daan.kruis@student.uva.nl) >> /Border [ 0 0 0 ] /Rect [ 138.2629 650.7736 256.8029 662.7736 ] /Subtype /Link /Type /Annot >>
+endobj
+8 0 obj
+<< /A << /S /URI /Type /Action /URI (http://docs.python.org/library/select.html) >> /Border [ 0 0 0 ] /Rect [ 256.2655 413.7736 433.0055 425.7736 ] /Subtype /Link /Type /Annot >>
+endobj
+9 0 obj
+<< /BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font >>
+endobj
+10 0 obj
+<< /A << /S /URI /Type /Action /URI (http://pep8online.com) >> /Border [ 0 0 0 ] /Rect [ 62.69291 308.7736 158.3029 320.7736 ] /Subtype /Link /Type /Annot >>
+endobj
+11 0 obj
+<< /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font >>
+endobj
+12 0 obj
+<< /Annots [ 4 0 R 5 0 R 6 0 R 7 0 R 8 0 R 10 0 R ] /Contents 28 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 27 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 
+  /Trans <<  >> /Type /Page >>
+endobj
+13 0 obj
+<< /Contents 29 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 27 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
+endobj
+14 0 obj
+<< /Contents 30 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 27 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
+endobj
+15 0 obj
+<< /Outlines 17 0 R /PageLabels 31 0 R /PageMode /UseNone /Pages 27 0 R /Type /Catalog >>
+endobj
+16 0 obj
+<< /Author () /CreationDate (D:20160907151627-01'00') /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
+  /Title (Lab 3 \205 Chat Room) >>
+endobj
+17 0 obj
+<< /Count 10 /First 18 0 R /Last 26 0 R /Type /Outlines >>
+endobj
+18 0 obj
+<< /Dest [ 12 0 R /XYZ 62.69291 527.0236 0 ] /Next 19 0 R /Parent 17 0 R /Title (Abstract) >>
+endobj
+19 0 obj
+<< /Dest [ 12 0 R /XYZ 62.69291 464.0236 0 ] /Next 20 0 R /Parent 17 0 R /Prev 18 0 R /Title (Preparation) >>
+endobj
+20 0 obj
+<< /Dest [ 12 0 R /XYZ 62.69291 377.0236 0 ] /Next 21 0 R /Parent 17 0 R /Prev 19 0 R /Title (Submission) >>
+endobj
+21 0 obj
+<< /Dest [ 12 0 R /XYZ 62.69291 176.0236 0 ] /Next 22 0 R /Parent 17 0 R /Prev 20 0 R /Title (Assignment) >>
+endobj
+22 0 obj
+<< /Dest [ 13 0 R /XYZ 62.69291 687.0236 0 ] /Next 23 0 R /Parent 17 0 R /Prev 21 0 R /Title (Protocol) >>
+endobj
+23 0 obj
+<< /Count 1 /Dest [ 13 0 R /XYZ 62.69291 306.0236 0 ] /First 24 0 R /Last 24 0 R /Next 25 0 R /Parent 17 0 R 
+  /Prev 22 0 R /Title (Task 1 \205 Server \(10 pts\)) >>
+endobj
+24 0 obj
+<< /Dest [ 13 0 R /XYZ 62.69291 189.0236 0 ] /Parent 23 0 R /Title (Tips) >>
+endobj
+25 0 obj
+<< /Dest [ 14 0 R /XYZ 62.69291 729.0236 0 ] /Next 26 0 R /Parent 17 0 R /Prev 23 0 R /Title (Task 2 \205 Client \(5 pts\)) >>
+endobj
+26 0 obj
+<< /Dest [ 14 0 R /XYZ 62.69291 588.0236 0 ] /Parent 17 0 R /Prev 25 0 R /Title (Task 3 \205 Encryption and Security \(10 pts\)) >>
+endobj
+27 0 obj
+<< /Count 3 /Kids [ 12 0 R 13 0 R 14 0 R ] /Type /Pages >>
+endobj
+28 0 obj
+<< /Length 6483 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 144.3749 0 Td (Lab 3 \226 Chat Room) Tj T* -144.3749 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 719.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Assistants) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 650.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 56 Tm  T* ET
+q
+1 0 0 1 20 54 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Junchao Wang \() Tj 0 0 .501961 rg (J.Wang2@uva.nl) Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20 36 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Rex Valkering \() Tj 0 0 .501961 rg (r.a.valkering@uva.nl) Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20 18 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Dani\353l Louwrink \() Tj 0 0 .501961 rg (daniel.louwrink@student.uva.nl) Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20 0 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Daan Kruis \() Tj 0 0 .501961 rg (daan.kruis@student.uva.nl) Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 634.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Lab dates:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 619.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Sep. 16 and 21 2016) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 603.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Deadline) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 588.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Sep. 22 at 23:59 CEST) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 572.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Total points) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 557.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (25) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 539.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (This lab must be done individually) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 506.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 476.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .972126 Tw (This assignment focuses on client-server architecture. You will learn how to multiplex sockets to handle) Tj T* 0 Tw (multiple simultaneous connections and how to combine socket I/O with other operations.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 443.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Preparation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 389.0236 cm
+q
+BT 1 0 0 1 0 38 Tm .228876 Tw 12 TL /F1 10 Tf 0 0 0 rg (You should already be familiar with the socket module, but you will now also need the select module. You) Tj T* 0 Tw 2.241797 Tw (can read the documentation of select at ) Tj 0 0 .501961 rg (http://docs.python.org/library/select.html) Tj 0 0 0 rg (. You should at least) Tj T* 0 Tw 1.787485 Tw (understand the basic use of select: to discover which sockets \(or other file descriptors\) are ready for) Tj T* 0 Tw (writing and reading.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 356.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Submission) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 338.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (IMPORTANT: Make sure your code is PEP8 compliant.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 308.0236 cm
+q
+BT 1 0 0 1 0 14 Tm 2.58686 Tw 12 TL /F1 10 Tf 0 0 0 rg (You can check your code by installing a PEP8 checker such as the command-line utility ) Tj /F3 10 Tf 0 0 0 rg (pep8 ) Tj /F1 10 Tf 0 0 0 rg (or) Tj T* 0 Tw 0 0 .501961 rg (http://pep8online.com) Tj 0 0 0 rg (. Points will be subtracted if your code is badly formatted.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 254.0236 cm
+q
+BT 1 0 0 1 0 38 Tm 1.259398 Tw 12 TL /F1 10 Tf 0 0 0 rg (Submit your working code \(always check if your code works one last time before submitting it, this will) Tj T* 0 Tw 12.28767 Tw (save you and the teaching assistants a lot of time\) in an archive called) Tj T* 0 Tw 13.71744 Tw /F3 10 Tf 0 0 0 rg (lab3-) Tj (<) Tj (last_name) Tj (>) Tj (_) Tj (<) Tj (first_letter_of_first_name) Tj (>) Tj (.zip ) Tj /F1 10 Tf 0 0 0 rg (\(or ) Tj /F3 10 Tf 0 0 0 rg (tar.gz) Tj /F1 10 Tf 0 0 0 rg (\). For example,) Tj T* 0 Tw /F3 10 Tf 0 0 0 rg (lab3-Louwrink_D.zip) Tj /F1 10 Tf 0 0 0 rg (. It should contain the following files:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 248.0236 cm
+Q
+q
+1 0 0 1 62.69291 248.0236 cm
+Q
+q
+1 0 0 1 62.69291 236.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (server.py ) Tj /F1 10 Tf 0 0 0 rg (\(task 1 + 3\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 230.0236 cm
+Q
+q
+1 0 0 1 62.69291 218.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (client.py ) Tj /F1 10 Tf 0 0 0 rg (\(task 2 + 3\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 218.0236 cm
+Q
+q
+1 0 0 1 62.69291 188.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .25832 Tw (Please do not forget to include your name, your student number and a short description of the program at) Tj T* 0 Tw (the top of each file.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 155.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Assignment) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 125.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .188409 Tw 12 TL /F1 10 Tf 0 0 0 rg (Instant messaging is ) Tj /F4 10 Tf (hot) Tj /F1 10 Tf (. In this assignment, you will be building a very simple chat room of your own that) Tj T* 0 Tw (uses a client-server architecture.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 83.02362 cm
+q
+BT 1 0 0 1 0 26 Tm .510514 Tw 12 TL /F1 10 Tf 0 0 0 rg (The main assignment is to program a server for a chat room that can handle multiple clients at the same ) Tj T* 0 Tw .630542 Tw (time. You also have to program a client application to communicate with the server. In lab 2 you learned ) Tj T* 0 Tw .709989 Tw (how to make a server that can accept one client at a time. In this lab, you will use the ) Tj /F3 10 Tf 0 0 0 rg (select ) Tj /F1 10 Tf 0 0 0 rg (function) Tj T* 0 Tw ET
+Q
+Q
+ 
+endstream
+endobj
+29 0 obj
+<< /Length 7663 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .621235 Tw 12 TL /F1 10 Tf 0 0 0 rg (from the select module to deal with multiple sockets at the same time. The ) Tj /F3 10 Tf 0 0 0 rg (select ) Tj /F1 10 Tf 0 0 0 rg (function determines) Tj T* 0 Tw (which sockets are ready to read from, ready to write to, or have errors.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 699.0236 cm
+q
+BT 1 0 0 1 0 26 Tm 1.217485 Tw 12 TL /F1 10 Tf 0 0 0 rg (On some platforms such as Linux there are more efficient alternatives to ) Tj /F3 10 Tf 0 0 0 rg (select\(\)) Tj /F1 10 Tf 0 0 0 rg (, but these are not) Tj T* 0 Tw .71784 Tw (cross-platform. Therefore you ) Tj /F4 10 Tf (must ) Tj /F1 10 Tf (use ) Tj /F3 10 Tf 0 0 0 rg (select\(\)) Tj /F1 10 Tf 0 0 0 rg (. Conceptually there is no difference, as they all have) Tj T* 0 Tw (the same functionality.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 666.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Protocol) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 612.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .297126 Tw (The client and server communicate using a simple line-based text protocol where clients send commands) Tj T* 0 Tw .954985 Tw (to a server. Commands are strings terminated with a single \\n \(newline character\). The server does not) Tj T* 0 Tw .507209 Tw (send commands to the client, so the client simply prints out whatever the server sends. Keep the logic in) Tj T* 0 Tw (the client to a minimum.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 594.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (You must implement all of these commands:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 588.0236 cm
+Q
+q
+1 0 0 1 62.69291 336.0236 cm
+1 1 1 rg
+n 0 252 469.8898 -42 re f*
+.878431 .878431 .878431 rg
+n 0 210 469.8898 -42 re f*
+1 1 1 rg
+n 0 168 469.8898 -42 re f*
+.878431 .878431 .878431 rg
+n 0 126 469.8898 -18 re f*
+1 1 1 rg
+n 0 108 469.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 90 469.8898 -30 re f*
+1 1 1 rg
+n 0 60 469.8898 -30 re f*
+.878431 .878431 .878431 rg
+n 0 30 469.8898 -30 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 237 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (/nick <) Tj (user) Tj (>) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.91717 213 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL (Sets the client\222s nick name, unless it is already taken. The server must also notify all) Tj T* (other users of the name change. Initially clients have no name, in which case the server) Tj T* (should choose a name for them.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 171 cm
+q
+BT 1 0 0 1 0 26 Tm 12 TL /F1 10 Tf 0 0 0 rg (/say <) Tj (text) Tj (>) Tj T* (or just) Tj T* (<) Tj (text) Tj (>) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.91717 195 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Every user receives the chat message.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 129 cm
+q
+BT 1 0 0 1 0 26 Tm 12 TL /F1 10 Tf 0 0 0 rg (/whisper) Tj T* (<) Tj (user) Tj (>) Tj T* (<) Tj (text) Tj (>) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.91717 153 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Only the specified user receives the chat message.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 111 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (/list) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.91717 111 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The user gets a list of all connected users.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (/help or /?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.91717 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Print a useful help message listing the possible commands.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 75 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (/me <) Tj (text) Tj (>) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.91717 63 cm
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F1 10 Tf 0 0 0 rg (Prints an action. For example \223/me goes to the store\224 would become \223) Tj (<) Tj (my username) Tj (>) Tj T* (goes to the store\224.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 33 cm
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F1 10 Tf 0 0 0 rg (/whois) Tj T* (<) Tj (user) Tj (>) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.91717 45 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Print information about a user. You should at least print their address.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 3 cm
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F1 10 Tf 0 0 0 rg (/filter) Tj T* (<) Tj (word) Tj (>) Tj T* ET
+Q
+Q
+q
+1 0 0 1 74.91717 15 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Filter every message containing <) Tj (word) Tj (>) Tj (, excluding server messages.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 210 m 469.8898 210 l S
+n 0 168 m 469.8898 168 l S
+n 0 126 m 469.8898 126 l S
+n 0 108 m 469.8898 108 l S
+n 0 90 m 469.8898 90 l S
+n 0 60 m 469.8898 60 l S
+n 0 30 m 469.8898 30 l S
+n 68.91717 0 m 68.91717 252 l S
+n 0 252 m 469.8898 252 l S
+n 0 0 m 469.8898 0 l S
+n 0 0 m 0 252 l S
+n 469.8898 0 m 469.8898 252 l S
+Q
+Q
+q
+1 0 0 1 62.69291 336.0236 cm
+Q
+q
+1 0 0 1 62.69291 318.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (When a client connects, disconnects or changes their name, the server notifies all users.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 285.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Task 1 \226 Server \(10 pts\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 255.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .885318 Tw 12 TL /F1 10 Tf 0 0 0 rg (Remember to use the ) Tj /F3 10 Tf 0 0 0 rg (select ) Tj /F1 10 Tf 0 0 0 rg (function to find readable and writable sockets. Use the ) Tj /F3 10 Tf 0 0 0 rg (server.py ) Tj /F1 10 Tf 0 0 0 rg (file) Tj T* 0 Tw (as a base.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 201.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .167209 Tw (You are free to design the structure of the messages yourself. Remember that the client will need to know) Tj T* 0 Tw .38332 Tw (when the message was sent, by whom and what their name is. You should provide a basic description of) Tj T* 0 Tw .400988 Tw (the message format in the comments of your code. Make sure that the structure is such that it is easy for) Tj T* 0 Tw (the computer to parse.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 171.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Tips) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 159.0236 cm
+Q
+q
+1 0 0 1 62.69291 159.0236 cm
+Q
+q
+1 0 0 1 62.69291 147.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (If a listening socket is readable, it means a client is trying to connect.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 141.0236 cm
+Q
+q
+1 0 0 1 62.69291 117.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm 1.019987 Tw 12 TL /F1 10 Tf 0 0 0 rg (If a socket is readable, but ) Tj /F3 10 Tf 0 0 0 rg (recv ) Tj /F1 10 Tf 0 0 0 rg (returns no data \(zero length string\), it means the other side has) Tj T* 0 Tw (disconnected.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 111.0236 cm
+Q
+q
+1 0 0 1 62.69291 87.02362 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.506457 Tw (You might find it easier to write your server in an object-oriented style. This will teach you about) Tj T* 0 Tw (writing OOP code in Python and it will make your program much easier to read.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 81.02362 cm
+Q
+ 
+endstream
+endobj
+30 0 obj
+<< /Length 3133 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .372209 Tw (Check the CPU usage of your program. If it is running at 100%, you might be busy-looping, which is) Tj T* 0 Tw (not correct in this case.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 741.0236 cm
+Q
+q
+1 0 0 1 62.69291 708.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Task 2 \226 Client \(5 pts\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 654.0236 cm
+q
+BT 1 0 0 1 0 38 Tm .01436 Tw 12 TL /F1 10 Tf 0 0 0 rg (Program a chat client to communicate with the server using the protocol described above. Instead of using) Tj T* 0 Tw .92561 Tw (a command line interface, you must use the simple GUI interface provided by ) Tj /F3 10 Tf 0 0 0 rg (gui.py) Tj /F1 10 Tf 0 0 0 rg (. You cannot use) Tj T* 0 Tw 2.112485 Tw (blocking socket I/O as that would block the GUI event loop. Therefore you should use the ) Tj /F3 10 Tf 0 0 0 rg (select) Tj T* 0 Tw /F1 10 Tf 0 0 0 rg (function here as well. Alternatively you can set the socket to non-blocking.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 600.0236 cm
+q
+BT 1 0 0 1 0 38 Tm .288988 Tw 12 TL /F1 10 Tf 0 0 0 rg (The reason for using a GUI instead of the command line is that the client must do multiple things at once:) Tj T* 0 Tw 1.12686 Tw (Receiving/displaying incoming messages as well as letting the user enter text, and that is not as easily) Tj T* 0 Tw .510488 Tw (handled by a command line. Use the ) Tj /F3 10 Tf 0 0 0 rg (client.py ) Tj /F1 10 Tf 0 0 0 rg (file as a base. In the end, you should be able to open) Tj T* 0 Tw (several clients at the same time and chat with yourself.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 567.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Task 3 \226 Encryption and Security \(10 pts\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 537.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .535318 Tw (To protect your users from eavesdropping, add encryption to your chat program. For example, you might) Tj T* 0 Tw (be familiar with the RSA asymmetrical cryptosystem from a course on algorithms or encryption.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 495.0236 cm
+q
+BT 1 0 0 1 0 26 Tm .596988 Tw 12 TL /F1 10 Tf 0 0 0 rg (Implement wrapping your sockets in a TLS layer like we did with the SMTP server \(if you did that part of) Tj T* 0 Tw .360574 Tw (the previous assignment\). As with the SMTP task you won't have to implement it yourself. Just import the) Tj T* 0 Tw /F3 10 Tf 0 0 0 rg (ssl ) Tj /F1 10 Tf 0 0 0 rg (module and use the ) Tj /F3 10 Tf 0 0 0 rg (wrap_socket ) Tj /F1 10 Tf 0 0 0 rg (function from there.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 465.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.368735 Tw (To create a more functional chat protocol, implement the functionality to kick and ban people from the) Tj T* 0 Tw (server. This should be a right reserved for certain admin users only.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+31 0 obj
+<< /Nums [ 0 32 0 R 1 33 0 R 2 34 0 R ] >>
+endobj
+32 0 obj
+<< /S /D /St 1 >>
+endobj
+33 0 obj
+<< /S /D /St 2 >>
+endobj
+34 0 obj
+<< /S /D /St 3 >>
+endobj
+xref
+0 35
+0000000000 65535 f
+0000000075 00000 n
+0000000140 00000 n
+0000000250 00000 n
+0000000365 00000 n
+0000000541 00000 n
+0000000723 00000 n
+0000000915 00000 n
+0000001102 00000 n
+0000001299 00000 n
+0000001407 00000 n
+0000001584 00000 n
+0000001703 00000 n
+0000001962 00000 n
+0000002172 00000 n
+0000002382 00000 n
+0000002491 00000 n
+0000002722 00000 n
+0000002800 00000 n
+0000002913 00000 n
+0000003042 00000 n
+0000003170 00000 n
+0000003298 00000 n
+0000003424 00000 n
+0000003611 00000 n
+0000003707 00000 n
+0000003853 00000 n
+0000004004 00000 n
+0000004082 00000 n
+0000010622 00000 n
+0000018342 00000 n
+0000021532 00000 n
+0000021594 00000 n
+0000021631 00000 n
+0000021668 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com)
+ [(\240\307\031Z"0]\015\334\222\201-I\371\205\262) (\240\307\031Z"0]\015\334\222\201-I\371\205\262)]
+ /Info 16 0 R /Root 15 0 R /Size 35 >>
+startxref
+21705
+%%EOF

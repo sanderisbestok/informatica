@@ -1,0 +1,14 @@
+CUDA 10^3
+CUDA 10^3
+next
+CUDA 10^4
+CUDA 10^4
+next
+CUDA 10^5
+CUDA 10^5
+next
+CUDA 10^6
+CUDA 10^6
+next
+CUDA 10^7
+CUDA 10^7

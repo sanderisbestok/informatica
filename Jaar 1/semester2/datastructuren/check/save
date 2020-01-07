@@ -1,0 +1,15 @@
+int check_pawn_w(struct Coord *king_b_coord, int i, int j) {
+    if ((i + 1) == (*king_b_coord).y && ((j - 1) == (*king_b_coord).x || (j + 1) == (*king_b_coord).x)) {
+        return 1;
+    } else {
+        return 0;
+    }
+}
+
+int check_pawn_b(struct Coord *king_w_coord, int i, int j) {
+    if ((i - 1) == (*king_w_coord).y && ((j - 1) == (*king_w_coord).x || (j + 1) == (*king_w_coord).x)) {
+        return 1;
+    } else {
+        return 0;
+    }
+}

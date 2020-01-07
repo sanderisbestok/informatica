@@ -1,0 +1,55 @@
+\documentclass[a4paper]{article}
+\usepackage[dutch]{babel}
+\usepackage{longtable}
+%\usepackage[style=authoryear-comp]{biblatex}
+\usepackage{cleveref}
+\begin{document}
+
+
+\begin{longtable}{  p{35pt} p{300pt} p{50pt} }
+    \caption{Hoe kan virtualisatie gebruikt worden om computers te beveiligen??}\\
+    \textbf{Sectie} &  \textbf{Welke informatie?} &  \textbf{Bronnen} \\ \hline
+
+    Inleiding 	& \textit{Maatschappelijke relevantie: Als virtuaagelisatie een mogelijkheid biedt om computers
+                te beveiligen tegen computervirussen dan kan dit een uitkomst zijn
+                om computers over het algemeen veiliger te maken.} & \cite{heiser2008role} \\ \cline{2-3}
+    		&  \textit{Eerdere bevindingen: In hoofdlijnen is er bekend over virtualisatie dat het zijn virtuele systemen
+            gescheiden houdt. Doordat de systemen gescheiden zijn is er geen gevaar dat
+            een andere virtueel systeem dat op dezelfde machine draait virussen over draagt naar andere systemen.}& \\ \cline{2-3}
+		&  \textit{Wetenschappelijke relevantie: Combineren van verschillende beveiligings taktieken die gebruik
+                                                maken van virtualisatie.} & \\ \cline{2-3}
+		&  \textit{Centrale vraag: Hoe kan virtualisatie gebruikt worden om computers beter te beveiligen.}& \\ \cline{2-3}
+		&  \textit{Opbouw verslag: Hoe zorgt virtualisatie ervoor dat systemen gescheiden blijven
+                                   en vervolgens hoe kan dit gebruikt worden om computers beter te beveiligen.} & \\ \hline
+
+     Kern	& \textit{Gescheiden systemen:} &  \\ \cline{2-3}
+		& \textit{Deelvraag 1: Hoe houdt virtualisatie systemen gescheiden} & \cite{heiser2008role} \\ \cline{2-3}
+        & \textit{Deelonderzoek1a: Wanneer kan je virtualisatie toepassen. (Welke soft- en hardware aanpassingen zijn hier voor nodig.)} & \cite{adams2006comparison} \\ \cline{2-3}
+		& \textit{Deelonderzoek1b: Virtuele systemen onder elkaar (Hypervisor)} &  \\ \cline{2-3}
+		& \textit{Deelonderzoek1c: Virtuele systemen naast elkaar} &  \\ \cline{2-3}
+		& \textit{Deelconclusie 1: Onderzoek b en c lijken erg op elkaar, dit kan wellicht tot een deelonderzoek verwerkt worden.} &  \\ \cline{2-3}
+
+		& \textit{Beveiliging:} &  \\ \cline{2-3}
+		& \textit{Deelvraag 2: Hoe kan virtualisatie gebruikt worden om te beveiligen} &  \\ \cline{2-3}
+		& \textit{Deelonderzoek 2a: Hoe kunnen virusscanners gebruik maken van virtualisatie?
+                Het patent van dat Google heeft aangevraagd om virtualisatie
+                te gebruiken om anti-virus software te beveiligen.} & \cite{wang2012securing} \\ \cline{2-3}
+		& \textit{Deelonderzoek2b: Hoe kan je systemen tegen elkaar beveiligen ook al zijn ze met het zelfde netwerk verbonden?} & \cite{garber2012challenges} \\ \cline{2-3}
+		& \textit{Deelconclusie 2: Door een virusscanner op een virtueel systeem te laten draaien
+                                is deze zelf niet vatbaar voor virussen. Maar als twee systemen met elkaar verbonden zijn via een netwerk, is er extra
+                                aandacht nodig voor de beveiliging en scheiding tussen deze twee systemen.} &  \\ \hline
+
+   Discussie	& \textit{Deelconclusie 1 en 2:} &  \\ \cline{2-3}
+		& \textit{Eindconclusie: Virtualisatie kan op verschillende manieren gebruikt worden om computers beter te beveiligen. Toch
+        moet er niet direct vanuit worden gegaan dat virtualisatie per definitie veilig is omdat deze machines vaak binnen
+        het netwerk met elkaar verbonden zijn.} &  \\ \cline{2-3}
+		& \textit{Evaluatie en verklaringen: Dat virtualisatie systemen creeert die onafhankelijk van elkaar zijn is algemeen bekend} &  \\ \cline{2-3}
+		& \textit{Terugkoppeling eerdere bevindingen: Zoals al bekend was houdt virtualisatie systemen gescheiden waardoor dit gebruikt kan worden voor beveiligings oplossingen } &  \\ \cline{2-3}
+                     & \textit{Terugkoppeling brede context en maatschappelijke relevantie: Er wordt door bedrijven geinvesteerd in patenten op beveilingstechnieken met behulp van virtualisatie.} & \cite{wang2012securing} \\ \hline
+
+\end{longtable}
+
+\bibliography{authors}
+\bibliographystyle{plainnat}
+
+\end{document}
